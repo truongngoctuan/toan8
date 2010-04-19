@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dulieu>
+	<bai1 tenbai = "">
+		<noidung>
+		</noidung>
+	</bai1>
+	
+	<bai2 tenbai = "">
+		<noidung>
+		
+		</noidung>
+	</bai2>
+	
+	<bai3 tenbai = "">
+		<noidung>
+		
+		</noidung>
+	</bai3>
+	
+	<bai4 tenbai = "">
+		<noidung>
+		
+		</noidung>
+		
+		<question order="1">
+				<text></text>
+				<options rightchoice="">
+					<option></option>
+					<option></option>
+					<option></option>
+					<option></option>
+				</options>
+		</question>
+		
+		<question order="2">
+				<text></text>
+				<options rightchoice="">
+					<option></option>
+					<option></option>
+					<option></option>
+					<option></option>
+				</options>
+		</question>
+		
+		<question order="3">
+				<text></text>
+				<options rightchoice="">
+					<option></option>
+					<option></option>
+					<option></option>
+					<option></option>
+				</options>
+		</question>
+	</bai4>
+</dulieu>
