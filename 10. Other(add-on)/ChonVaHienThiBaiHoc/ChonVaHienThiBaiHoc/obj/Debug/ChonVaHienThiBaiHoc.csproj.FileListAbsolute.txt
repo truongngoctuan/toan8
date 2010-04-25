@@ -1,0 +1,14 @@
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\bin\Debug\ChonVaHienThiBaiHoc.exe
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\bin\Debug\ChonVaHienThiBaiHoc.pdb
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\ResolveAssemblyReference.cache
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\Window1.baml
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\Window1.g.cs
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\App.g.cs
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\ChonVaHienThiBaiHoc_MarkupCompile.cache
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\ChonVaHienThiBaiHoc.g.resources
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\ChonVaHienThiBaiHoc.Properties.Resources.resources
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\ChonVaHienThiBaiHoc.csproj.GenerateResource.Cache
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\ChonVaHienThiBaiHoc.exe
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\ChonVaHienThiBaiHoc.pdb
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\Page1.baml
+E:\Project 2010\Silver Light\ChonVaHienThiBaiHoc\ChonVaHienThiBaiHoc\obj\Debug\Page1.g.cs
