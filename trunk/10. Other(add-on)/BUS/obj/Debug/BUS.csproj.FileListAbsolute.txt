@@ -1,9 +1,0 @@
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\BUS.dll
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\BUS.pdb
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\DAO.dll
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\DTO.dll
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\DAO.pdb
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\DTO.pdb
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\obj\Debug\BUS.dll
-C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\obj\Debug\BUS.pdb
