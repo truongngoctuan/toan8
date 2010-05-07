@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.dll" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-05-08" time="00:44:31">
+  <environment nunit-version="2.5.5.10112" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="D:\Program Files\NUnit 2.5.5\bin\net-2.0" machine-name="MINHPC" user="Minh" user-domain="MinhPC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.dll" executed="True" result="Failure" success="False" time="0.261" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="UnitTestFormDangNhap" executed="True" result="Failure" success="False" time="0.252" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="FormDangNhapTest" executed="True" result="Failure" success="False" time="0.233" asserts="0">
+            <results>
+              <test-case name="UnitTestFormDangNhap.FormDangNhapTest.Test_LayMatKhauCuaTaiKhoan" executed="True" result="Failure" success="False" time="0.212" asserts="2">
+                <failure>
+                  <message><![CDATA[  String lengths are both 6. Strings differ at index 5.
+  Expected: "pass_2"
+  But was:  "pass_1"
+  ----------------^
+]]></message>
+                  <stack-trace><![CDATA[at UnitTestFormDangNhap.FormDangNhapTest.Test_LayMatKhauCuaTaiKhoan() in C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\FormDangNhapTest.cs:line 32
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
