@@ -1,0 +1,9 @@
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\bin\Debug\ChonVaHienThiBaiHoc.exe
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\bin\Debug\nunit.framework.dll
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\bin\Debug\ChonVaHienThiBaiHoc.pdb
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\bin\Debug\nunit.framework.xml
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\obj\Debug\UnitTest.pdb
