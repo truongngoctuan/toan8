@@ -9,3 +9,16 @@ C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDan
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\obj\Debug\UnitTestFormDangNhap.pdb
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\bin\Debug\DTO.dll
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\obj\Debug\ResolveAssemblyReference.cache
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\obj\Debug\UnitTestFormDangNhap.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\obj\Debug\UnitTestFormDangNhap.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\DAO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\nunit.framework.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\DAO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\nunit.framework.xml
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\BUS.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\BUS.pdb

@@ -16,3 +16,21 @@ C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\FormDangNhap\bi
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\FormDangNhap\bin\Debug\DTO.pdb
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\FormDangNhap\bin\Debug\DAO.dll
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\FormDangNhap\bin\Debug\DAO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\FormDangNhap.exe
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\FormDangNhap.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\FormDangNhap.exe
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\FormDangNhap.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\BUS.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\DAO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\BUS.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\DAO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\ResolveAssemblyReference.cache
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\Window1.baml
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\Window1.g.cs
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\App.g.cs
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\FormDangNhap_MarkupCompile.cache
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\FormDangNhap.g.resources
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\FormDangNhap.Properties.Resources.resources
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\FormDangNhap\obj\Debug\FormDangNhap.csproj.GenerateResource.Cache

@@ -7,3 +7,12 @@ C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\D
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\bin\Debug\DTO.pdb
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\obj\Debug\BUS.dll
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\BUS\obj\Debug\BUS.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\bin\Debug\BUS.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\bin\Debug\BUS.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\bin\Debug\DAO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\bin\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\bin\Debug\DAO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\obj\Debug\ResolveAssemblyReference.cache
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\obj\Debug\BUS.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\BUS\obj\Debug\BUS.pdb

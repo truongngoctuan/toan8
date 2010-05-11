@@ -3,3 +3,8 @@ C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\bin\Debug\D
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\obj\Debug\DTO.dll
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\obj\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\bin\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\obj\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\obj\Debug\DTO.pdb
