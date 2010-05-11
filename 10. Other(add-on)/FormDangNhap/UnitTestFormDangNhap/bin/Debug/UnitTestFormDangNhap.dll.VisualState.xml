@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1000]C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.dll</TopNode>
-  <SelectedNode>[0-1000]C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.dll</SelectedNode>
+  <TopNode>[0-1007]E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.dll</TopNode>
+  <SelectedNode>[0-1006]UnitTestFormDangNhap.FormDangNhapTest.Test_BUS_KiemTraTaiKhoanCoTonTaiKhong</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
-  <Nodes />
+  <Nodes>
+    <Node UniqueName="[0-1007]E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\UnitTestFormDangNhap\bin\Debug\UnitTestFormDangNhap.dll" Expanded="true" />
+    <Node UniqueName="[0-1008]UnitTestFormDangNhap" Expanded="true" />
+    <Node UniqueName="[0-1000]UnitTestFormDangNhap.FormDangNhapTest" Expanded="true" />
+  </Nodes>
 </VisualState>

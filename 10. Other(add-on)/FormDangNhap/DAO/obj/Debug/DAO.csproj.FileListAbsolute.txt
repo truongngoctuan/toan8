@@ -5,3 +5,10 @@ C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DAO\bin\Debug\D
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DAO\bin\Debug\DTO.pdb
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DAO\obj\Debug\DAO.dll
 C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DAO\obj\Debug\DAO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DAO\obj\Debug\ResolveAssemblyReference.cache
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DAO\obj\Debug\DAO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DAO\bin\Debug\DAO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DAO\bin\Debug\DAO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DAO\bin\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DAO\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DAO\obj\Debug\DAO.pdb

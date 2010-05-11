@@ -52,9 +52,9 @@ namespace FormDangNhap
         {
             string tenDangNhap = this.tbTen.Text;
             string matKhauDangNhap = this.pbMatKhau.Password;
-            if (BUS.PupilUserBUS.KiemTraTenDangNhapCoTonTaiKhong(tenDangNhap))
+            if (BUS.UserBUS.KiemTraTenDangNhapCoTonTaiKhong(tenDangNhap)!=0)
             {
-                string matKhau = BUS.PupilUserBUS.LayMatKhauCuaTaiKhoan(tenDangNhap);
+                string matKhau = BUS.UserBUS.LayMatKhauCuaTaiKhoan(tenDangNhap);
                 if (matKhauDangNhap == matKhau)
                 {
                     return 1;  // Dang Nhap Thanh Cong
