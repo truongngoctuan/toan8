@@ -11,9 +11,14 @@ namespace DAO
     {
         public static List<string> LayDanhSachTaiKhoan(string duongDanThuMucChuaTaiKhoan)
         {
-            List<string> danhSach = new List<string>();
-            DirectoryInfo thuMucChuaPupilUser = new DirectoryInfo(duongDanThuMucChuaTaiKhoan);
-            DirectoryInfo[] thongTinCacThuMucCon = thuMucChuaPupilUser.GetDirectories();
+            List<string> danhSach = new List<string>();            
+            try
+            {
+                DirectoryInfo thuMucChuaPupilUser = new DirectoryInfo(duongDanThuMucChuaTaiKhoan);
+                DirectoryInfo[] thongTinCacThuMucCon = thuMucChuaPupilUser.GetDirectories();
+            }
+            catch
+            {}
             foreach (DirectoryInfo thongTinMotThuMuc in thongTinCacThuMucCon)
             {
                 danhSach.Add(thongTinMotThuMuc.Name);
