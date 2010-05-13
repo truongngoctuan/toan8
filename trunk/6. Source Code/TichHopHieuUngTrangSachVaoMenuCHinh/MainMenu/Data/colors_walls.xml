@@ -1,0 +1,40 @@
+﻿<!--==============================================================
+
+Microsoft(R) EXPRESSION Blend(TM)
+
+============================================================= -->
+
+<swatches>
+	<name>Walls</name>
+	<swatch>
+		<color>#fff7d496</color>
+		<color>#fffc9754</color>
+		<color>#fffb481f</color>
+	</swatch>
+  <swatch>
+    <color>#ffd0f695</color>
+    <color>#ff78dd3b</color>
+    <color>#ff1bb103</color>
+  </swatch>
+  <swatch>
+    <color>#ff9ef6d0</color>
+    <color>#ff33c9ab</color>
+    <color>#ff008772</color>
+  </swatch>
+  <swatch>
+    <color>#ff9addf6</color>
+    <color>#ff2ea6d3</color>
+    <color>#ff006c94</color>
+  </swatch>
+  <swatch>
+    <color>#ffc0b8f6</color>
+    <color>#ff5d4ec1</color>
+    <color>#ff2d217f</color>
+  </swatch>
+  <swatch>
+    <color>#fffafafa</color>
+    <color>#ffbbbbbb</color>
+    <color>#ff999999</color>
+  </swatch>
+
+</swatches>

@@ -1,0 +1,8 @@
+﻿<Window x:Class="ColorSwatch.ManHinh.Dáio"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Đại Số" WindowState="Maximized" WindowStyle="None">
+    <Grid>
+        <Button Width="50" Height="23" Margin="101,0,102,97" Name="button1" VerticalAlignment="Bottom" Click="button1_Click">Button</Button>
+    </Grid>
+</Window>

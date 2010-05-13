@@ -1,0 +1,144 @@
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\bin\Debug\ColorSwatch.exe
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\bin\Debug\ColorSwatch.pdb
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\DangNhap.baml
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ManHinh\DaiSo.baml
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ManHinh\GiaiTri.baml
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ManHinh\HinhHoc.baml
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\Room.baml
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\Swatch.baml
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\Window1.baml
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\DangNhap.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ManHinh\DaiSo.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ManHinh\GiaiTri.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ManHinh\HinhHoc.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\Room.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\Swatch.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\Window1.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\App.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ColorSwatch_MarkupCompile.cache
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ColorSwatch_MarkupCompile.lref
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ColorSwatch.g.resources
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ColorSwatch.exe
+C:\Users\Pisun2\Desktop\Picture\New folder\MainMenu\ColorSwatch\obj\Debug\ColorSwatch.pdb
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ColorSwatch.exe
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ColorSwatch.pdb
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\bin\Debug\ColorSwatch.exe
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\bin\Debug\ColorSwatch.pdb
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\DangNhap.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ManHinh\DaiSo.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ManHinh\GiaiTri.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ManHinh\HinhHoc.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\DangNhap.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ManHinh\DaiSo.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ManHinh\GiaiTri.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ManHinh\HinhHoc.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\Room.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\Swatch.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\Window1.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\App.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ColorSwatch_MarkupCompile.cache
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ColorSwatch_MarkupCompile.lref
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\Room.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\Swatch.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\Window1.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\ColorSwatch.g.resources
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCTrangLyThuyet.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCTrangLyThuyet.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\HocDaiSo.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\HocDaiSo.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\bin\Debug\WPFMitsuControls.dll
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\bin\Debug\WPFMitsuControls.pdb
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCTrangBaiTap.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCTrangBaiTap.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCCube.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCCube.baml
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCTheEnd.g.cs
+C:\Users\KitMinh\Desktop\ThietKeManHinhChinh\MainMenu\obj\Debug\UCTheEnd.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch.exe
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\ColorSwatch.exe
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\ColorSwatch.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\WPFMitsuControls.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\DangNhap.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\DaiSo.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\GiaiTri.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\HinhHoc.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangBaiTap.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangLyThuyet.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\DangNhap.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\HocDaiSo.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\DaiSo.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\GiaiTri.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\HinhHoc.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Room.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Swatch.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCCube.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTheEnd.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangBaiTap.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangLyThuyet.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Window1.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\App.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch_MarkupCompile.cache
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch_MarkupCompile.lref
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\HocDaiSo.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Room.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Swatch.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCCube.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTheEnd.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Window1.baml
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch.g.resources
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch.exe
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\ColorSwatch.exe
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\ColorSwatch.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\WPFMitsuControls.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\DangNhap.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\DaiSo.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\GiaiTri.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\HinhHoc.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangBaiTap.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangLyThuyet.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\DangNhap.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\HocDaiSo.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\DaiSo.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\GiaiTri.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ManHinh\HinhHoc.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Room.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Swatch.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCCube.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTheEnd.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangBaiTap.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTrangLyThuyet.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Window1.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\App.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch_MarkupCompile.cache
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch_MarkupCompile.lref
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\HocDaiSo.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Room.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Swatch.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCCube.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\UCTheEnd.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\Window1.baml
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\obj\Debug\ColorSwatch.g.resources
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\BUS.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DTO.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DAO.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\BUS.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DAO.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DTO.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\BUS.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DTO.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DAO.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\BUS.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DAO.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\MainMenu\bin\Debug\DTO.pdb
