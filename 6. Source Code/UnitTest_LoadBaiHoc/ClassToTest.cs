@@ -12,7 +12,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 using NUnit.Framework;
-using ChonVaHienThiBaiHoc;
 
 
 namespace UnitTest

@@ -7,3 +7,6 @@ C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitT
 C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\bin\Debug\nunit.framework.xml
 C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\obj\Debug\UnitTest.dll
 C:\Users\Pisun2\Desktop\qlqtpm2125\6. Source Code\ChonVaHienThiBaiHoc_Demo\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\UnitTest_LoadBaiHoc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\UnitTest_LoadBaiHoc\obj\Debug\UnitTest.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\UnitTest_LoadBaiHoc\obj\Debug\UnitTest.pdb
