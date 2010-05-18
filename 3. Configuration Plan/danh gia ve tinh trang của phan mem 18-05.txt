@@ -1,0 +1,30 @@
+﻿Người đánh giá: Trương Ngọc Tuấn
+	màn hình chính:
+		hiện 2 nút exit ??
+		chưa có chức năng thay đổi thông tin
+		
+		phần đăng nhập: 
+			chưa đăng nhập sao vẫn dùng các chức năng được
+			không có nút "đăng nhập", chỉ có nút ok
+			không có nút đăg xuất sau khi đăng nhập
+		đăng kí:
+			không kiểm tra email hợp lệ
+			dki không thành công, vẫn báo thành công
+			sau khi đăng kí không chuyển lại khung đăng nhập đc
+			
+	chứng minh:
+		không có danh sách câu hỏi
+		kéo thả lúc đc lúc không, trung bình kéo 3 lần thì đc 2 lần
+		không hiển thị kết quả đúng khi nhấn xem kết quả
+	
+	trắc nghiệm:
+		không có chọn bài (không có link tới các trang khác ...)
+		không có chấm điểm
+		phần highlight hình như bì lỗi do mấy cái này là hình nên không hiển thị đc tốt lắm
+		ý kiến: nên cho highlight là 1 cái border để tránh ảnh hưởng đế chứ/ hình ảnh của các câu trắc nghiệm
+				nên có đóng khung các câu đã đc chọn, hiện thị nút radio button bự 1 chút
+				
+	source code thùng chứa, đề nghị xóa bớt các phần không cần thiết
+		không up file rar
+		xóa thứ mục bin, obj trước khi up
+		viết change log với mỗi phiên bản thay đổi - đính kèm với source code mình đã up
