@@ -1,0 +1,20 @@
+﻿1. Stories or Spec
+	cần chỉnh sửa lại uses case cho phù hợp với việc chỉnh sửa các chức năng
+2. Architecture Design
+	có 2 mục:
+		Design_TracNghiem: có hình ảnh và mô tả về các màn hình, tuy nhiên không giống với phiên bản Source Code hiện tại, resource sẽ được đóng gói , up lên mediafire, và post vào 1 file resource.txt
+		các bạn xác định dùm mình, giữ lại những file nào, bỏ file nào, giử cả 5 file, gộp chung lại đc không ??
+		format lại nữa
+		cần bổ sung change log từng file
+		
+3. Configuration Plan
+	cần chỉnh sửa lại cho phù hợp với nhóm
+	
+4. Coding Standard
+cần chỉnh lại format, chỉ giữ lại 1 file duy nhất thôi
+
+5. Build Scripts
+	chưa xem
+	
+6. Source Code	
+	cần xóa bớt 1 số Proj ko cần thiết hoặc đã cữ, giải nén tất cả ra, xóa bin, obj
