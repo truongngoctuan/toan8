@@ -1,0 +1,40 @@
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\bin\Debug\DTO.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\bin\Debug\DTO.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\obj\Debug\DTO.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\FormDangNhap\DTO\obj\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\bin\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\obj\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\10. Other(add-on)\FormDangNhap\DTO\obj\Debug\DTO.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\bin\Debug\DTO.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\bin\Debug\DTO.pdb
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\obj\Debug\DTO.dll
+C:\Users\Minh\Documents\Visual Studio 2008\Projects\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\obj\Debug\DTO.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\bin\Debug\DTO.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\bin\Debug\DTO.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\obj\Debug\DTO.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh\DTO\obj\Debug\DTO.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.pdb
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.dll
+C:\Users\Pisun2\Desktop\Thung Chua\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.pdb
+F:\NHIEU\MyProjects\TH nam III 09-10\TH kyII 09-10\Xay dung phan mem\doanXDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.dll
+F:\NHIEU\MyProjects\TH nam III 09-10\TH kyII 09-10\Xay dung phan mem\doanXDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.pdb
+F:\NHIEU\MyProjects\TH nam III 09-10\TH kyII 09-10\Xay dung phan mem\doanXDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\ResolveAssemblyReference.cache
+F:\NHIEU\MyProjects\TH nam III 09-10\TH kyII 09-10\Xay dung phan mem\doanXDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.dll
+F:\NHIEU\MyProjects\TH nam III 09-10\TH kyII 09-10\Xay dung phan mem\doanXDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.pdb
+E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.dll
+E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.pdb
+C:\Users\KitMinh\Desktop\test\xdpm\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.dll
+C:\Users\KitMinh\Desktop\test\xdpm\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\bin\Debug\DTO.pdb
+C:\Users\KitMinh\Desktop\test\xdpm\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KitMinh\Desktop\test\xdpm\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.dll
+C:\Users\KitMinh\Desktop\test\xdpm\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\DTO\obj\Debug\DTO.pdb

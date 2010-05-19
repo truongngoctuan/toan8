@@ -1,0 +1,42 @@
+﻿<Page x:Class="ColorSwatch.DangKyTaiKhoan"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DangKyTaiKhoan" Width="598" Height="610">
+  
+        <Grid Width="620" Height="691" Background="AntiqueWhite">
+            <Label Height="36" Margin="176.38,46,175.38,0" Name="label1" VerticalAlignment="Top" FontSize="20" FontWeight="bold" BorderBrush="Blue">Đăng ký thành viên lớp học</Label>
+            <Canvas Margin="23,103,41,0" Name="canvas1" Height="139" VerticalAlignment="Top" Background="YellowGreen">
+                <TextBox Canvas.Left="150" Canvas.Top="13" Height="28" Name="textBoxTenDangNhap" Width="259" KeyUp="KeyUp_TextBoxTenDangNhap"/>
+                <Label Canvas.Left="24" Canvas.Top="13" Height="28" Name="label2" Width="120">Tên đăng nhâp :</Label>
+                <Label Canvas.Left="411" Canvas.Top="11" Height="28" Name="labelTenDangNhap" Width="164" ></Label>
+                <Label Canvas.Left="24" Canvas.Top="48" Height="28" Name="label4" Width="120">Mật khẩu</Label>
+                <Label Canvas.Left="24" Canvas.Top="92" Height="28" Name="label5" Width="120">Nhập lại mật khẩu</Label>
+                <PasswordBox Canvas.Left="150" Canvas.Top="48" Height="28" Name="passwordBox1" Width="259" KeyUp="passwordBox1_KeyUp" />
+                <PasswordBox Canvas.Left="150" Canvas.Top="92" Height="28" Name="passwordBox2" Width="259" KeyUp="passwordBox2_KeyUp" />
+                <Label Canvas.Left="411" Canvas.Top="48" Height="28" Name="labelMatKhau" Width="145" ></Label>
+                <Label Canvas.Left="411" Canvas.Top="92" Height="28" Name="labelMatKhauNhapLai" Width="145" ></Label>
+                <Label Canvas.Left="110" Canvas.Top="13" Height="26" Name="label12" Width="34" Foreground="Red"> (*)</Label>
+            <Label Canvas.Left="78" Canvas.Top="47" Foreground="Red" Height="26" Name="label13" Width="34">(*)</Label>
+            <Label Canvas.Left="123" Canvas.Top="91" Foreground="Red" Height="26" Name="label14" Width="34">(*)</Label>
+        </Canvas>
+            <Canvas Margin="23,247,41,245" Name="canvas2" Background="YellowGreen">
+                <Label Canvas.Left="24" Canvas.Top="28" Height="28" Name="label8" Width="120">Họ tên :</Label>
+                <Label Canvas.Left="24" Canvas.Top="60" Height="28" Name="label9" Width="120">Lớp :</Label>
+                <Label Canvas.Left="24" Canvas.Top="103" Height="28" Name="label10" Width="120">Trường :</Label>
+                <Label Canvas.Left="24" Canvas.Top="144" Height="28" Name="label11" Width="120">Email :</Label>
+                <TextBox Canvas.Left="150" Canvas.Top="17" Height="28" Name="textBoxHoTen" Width="259" />
+                <TextBox Canvas.Left="150" Canvas.Top="60" Height="28" Name="textBoxLop" Width="259" />
+                <TextBox Canvas.Left="150" Canvas.Top="105" Height="28" Name="textBoxTruong" Width="259" />
+                <TextBox Canvas.Left="150" Canvas.Top="146" Height="28" Name="textBoxEmail" Width="259" />
+            <Label Canvas.Left="70" Canvas.Top="28" Foreground="Red" Height="26" Name="label15" Width="34">(*)</Label>
+            <Label Canvas.Left="54" Canvas.Top="61" Foreground="Red" Height="26" Name="label16" Width="34">(*)</Label>
+            <Label Canvas.Left="70" Canvas.Top="103" Foreground="Red" Height="26" Name="label6" Width="34">(*)</Label>
+            <Label Canvas.Left="411" Canvas.Top="19" Height="28" Name="labelHoTen" Width="145" Visibility="Hidden" FontSize="12" Foreground="Red">Bạn chưa điền họ tên</Label>
+            <Label Canvas.Left="411" Canvas.Top="62" Height="28" Name="labelLop" Width="145" Visibility="Hidden" FontSize="12" Foreground="Red">Bạn học lớp nào ?</Label>
+            <Label Canvas.Left="411" Canvas.Top="106" Height="28" Name="labelTruong" Width="145" Visibility="Hidden" FontSize="12" Foreground="Red">Bạn học trường nào ?</Label>
+        </Canvas>
+        <Button Height="32" Name="buttonDangKy" Width="85" HorizontalAlignment="Left" Margin="195,0,0,186" VerticalAlignment="Bottom" Click="ButtonDangKy_Click">Đăng ký</Button>
+        <Button Height="32" HorizontalAlignment="Right" Margin="0,0,225,186" Name="buttonHuyDangKy" VerticalAlignment="Bottom" Width="83" Click="buttonHuyDangKy_Click">Hủy </Button>
+        <Label Height="28" Margin="77,0,76,110" Name="labelThongBao" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold"></Label>
+    </Grid>
+</Page>

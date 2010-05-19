@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThongTinNguoiDung>
+  <TenDangNhap>PupilUserName_2</TenDangNhap>
+  <MatKhau>pass_2</MatKhau>
+  <HoTen>hoten</HoTen>
+  <Truong>truong</Truong>
+  <Lop>lop</Lop>
+  <Email></Email>
+  <LoaiNguoiDung>1</LoaiNguoiDung>
+</ThongTinNguoiDung>
