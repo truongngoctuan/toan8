@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\UnitTest.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-05-16" time="17:43:54">
+  <environment nunit-version="2.5.5.10112" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="D:\Program Files\NUnit 2.5.5\bin\net-2.0" machine-name="MINHPC" user="Minh" user-domain="MinhPC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\UnitTest.dll" executed="True" result="Failure" success="False" time="0.297" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="UnitTest" executed="True" result="Failure" success="False" time="0.294" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="ClassToTest" executed="True" result="Failure" success="False" time="0.218" asserts="0">
+            <results>
+              <test-case name="UnitTest.ClassToTest.UNitTest_LoadRTFPackage" executed="True" result="Error" success="False" time="0.218" asserts="0">
+                <failure>
+                  <message><![CDATA[System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\Lessons'.]]></message>
+                  <stack-trace><![CDATA[at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+at System.IO.Directory.InternalGetFileDirectoryNames(String path, String userPathOriginal, String searchPattern, Boolean includeFiles, Boolean includeDirs, SearchOption searchOption)
+at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+at System.IO.Directory.GetFiles(String path)
+at ChonVaHienThiBaiHoc.ReadFile.LoadFiles() in E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\ReadFile.cs:line 21
+at UnitTest.ClassToTest.UNitTest_LoadRTFPackage() in E:\Hoc tap\Xay dung phan mem\toan8\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\ClassToTest.cs:line 36
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
