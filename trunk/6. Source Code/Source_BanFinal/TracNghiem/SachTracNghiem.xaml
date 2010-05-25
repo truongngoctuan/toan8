@@ -4,7 +4,7 @@
 	xmlns:controls="clr-namespace:WPFMitsuControls;assembly=WPFMitsuControls"
     xmlns:sachtracnghiem="clr-namespace:TracNghiem.UC"
     Title="Đại Số" Height="800" Width="1280" 
-	Loaded="OnLoaded" WindowState="Maximized" WindowStyle="None">
+	Loaded="OnLoaded" WindowState="Maximized" WindowStyle="None" Topmost="True">
     <DockPanel>
         <DockPanel.Resources>
             <Style x:Name="title" TargetType="{x:Type Label}">
