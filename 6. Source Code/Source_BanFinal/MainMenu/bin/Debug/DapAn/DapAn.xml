@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Quy uoc: tab 'DangDapAn': 1: chuoi; 2: HinhAnh(Luc do tab NoiDungDapAn se la duong dan chi toi file hinh anh)-->
+<!--Quy uoc dat ten hinh: 
+- Phan Dai so bat dau bang DS
+- Phan Dai so bat dau bang HH
+- Tiep theo la so thu tu bai, so thu tu cau hoi, so thu tu dap an-->
+<DapAns>
+  <DapAn>
+	  <Chuong>1</Chuong>
+    <BaiHoc>1</BaiHoc>
+    <CauHoi>1</CauHoi>
+    <ViTriDapAn>1</ViTriDapAn>
+	  <DangDapAn>1</DangDapAn>
+    <NoiDungDapAn>"a=b"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+	  <Chuong>1</Chuong>
+    <BaiHoc>1</BaiHoc>
+    <CauHoi>1</CauHoi>
+    <ViTriDapAn>2</ViTriDapAn>
+    <DangDapAn>1</DangDapAn>
+	  <NoiDungDapAn>"b=c"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+    <Chuong>1</Chuong>
+	  <BaiHoc>1</BaiHoc>
+    <CauHoi>1</CauHoi>
+    <ViTriDapAn>3</ViTriDapAn>
+	  <DangDapAn>1</DangDapAn>
+    <NoiDungDapAn>"=>a=c"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+	  <Chuong>1</Chuong>
+    <BaiHoc>1</BaiHoc>
+    <CauHoi>2</CauHoi>
+    <ViTriDapAn>1</ViTriDapAn>
+	  <DangDapAn>2</DangDapAn>
+    <NoiDungDapAn>"DapAn\DS_C1_B1_C2_DA1.png"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+	  <Chuong>1</Chuong>
+    <BaiHoc>1</BaiHoc>
+    <CauHoi>2</CauHoi>
+    <ViTriDapAn>2</ViTriDapAn>
+	  <DangDapAn>2</DangDapAn>
+    <NoiDungDapAn>"DapAn\DS_C1_B1_C2_DA2.png"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+    <Chuong>1</Chuong>
+    <BaiHoc>1</BaiHoc>
+    <CauHoi>2</CauHoi>
+    <ViTriDapAn>3</ViTriDapAn>
+	  <DangDapAn>2</DangDapAn>
+    <NoiDungDapAn>"DapAn\DS_C1_B1_C2_DA3.png"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+	  <Chuong>1</Chuong>
+    <BaiHoc>1</BaiHoc>
+    <CauHoi>2</CauHoi>
+    <ViTriDapAn>4</ViTriDapAn>
+	  <DangDapAn>2</DangDapAn>
+    <NoiDungDapAn>"DapAn\DS_C1_B1_C2_DA4.png"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+	  <Chuong>1</Chuong>
+    <BaiHoc>2</BaiHoc>
+    <CauHoi>1</CauHoi>
+    <ViTriDapAn>1</ViTriDapAn>
+  	<DangDapAn>1</DangDapAn>
+    <NoiDungDapAn>"dap an hinh hoc 1"</NoiDungDapAn>
+  </DapAn>
+  <DapAn>
+	<Chuong>1</Chuong>
+    <BaiHoc>2</BaiHoc>
+    <CauHoi>1</CauHoi>
+    <ViTriDapAn>2</ViTriDapAn>
+	<DangDapAn>1</DangDapAn>
+    <NoiDungDapAn>dap an hinh hoc 2"</NoiDungDapAn>
+  </DapAn>
+</DapAns>

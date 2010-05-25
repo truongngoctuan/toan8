@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DanhSachBaiHoc>
+  <BaiHoc ThuTu="1">
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai01\TracNghiem\Cau01"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai01\TracNghiem\Cau02"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai01\TracNghiem\Cau03"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai01\TracNghiem\Cau04"></TracNghiem>
+  </BaiHoc>
+  <BaiHoc ThuTu="2">
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai02\TracNghiem\Cau01"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai02\TracNghiem\Cau02"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai02\TracNghiem\Cau03"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\Bai02\TracNghiem\Cau04"></TracNghiem>
+  </BaiHoc>
+</DanhSachBaiHoc>
