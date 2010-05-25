@@ -1,0 +1,44 @@
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\2.xps
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\BaiTapDaiSo.xml
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\1.xps
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\3.xps
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\4.xps
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\UnitTest.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\UnitTest.pdb
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\BUS.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\ColorSwatch.exe
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DAO.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DTO.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\nunit.framework.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\WPFMitsuControls.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\ColorSwatch.pdb
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\nunit.framework.xml
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DAO.pdb
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\BUS.pdb
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\WPFMitsuControls.pdb
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DTO.pdb
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\obj\Debug\UnitTest.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\obj\Debug\UnitTest.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\2.xps
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\1.xps
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\3.xps
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\BaiTapDaiSo.xml
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\SachDaiSo\4.xps
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\UnitTest.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\UnitTest.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\BUS.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\ColorSwatch.exe
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DAO.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DTO.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\nunit.framework.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\WPFMitsuControls.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\ColorSwatch.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\nunit.framework.xml
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DAO.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\BUS.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\WPFMitsuControls.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\bin\Debug\DTO.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\obj\Debug\UnitTest.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\UnitTest_LoadBaiHoc\obj\Debug\UnitTest.pdb

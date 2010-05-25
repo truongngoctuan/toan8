@@ -1,0 +1,30 @@
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\bin\Debug\WPFMitsuControls.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\bin\Debug\WPFMitsuControls.pdb
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\BookPage.baml
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\Book.g.cs
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\BookPage.g.cs
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.cache
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.lref
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\Book.baml
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.g.resources
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.Properties.Resources.resources
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.csproj.GenerateResource.Cache
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.dll
+C:\Users\KitMinh\Desktop\soruce xdpm chinh\Tu Hoc Toan 8 Source and UnitTest\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\bin\Debug\WPFMitsuControls.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\bin\Debug\WPFMitsuControls.pdb
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\BookPage.baml
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\Book.g.cs
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\BookPage.g.cs
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.cache
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.lref
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\Book.baml
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.g.resources
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.Properties.Resources.resources
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.csproj.GenerateResource.Cache
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.dll
+C:\Users\KitMinh\Desktop\XDPM\6. Source Code\TichHopHieuUngTrangSachVaoMenuCHinh_UnitTest\WPFMitsuControls\obj\Debug\WPFMitsuControls.pdb
