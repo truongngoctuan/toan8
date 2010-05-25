@@ -1,0 +1,16 @@
+﻿Người đánh giá: Trương Ngọc Tuấn
+	màn hình chính:
+		không có, Kịt sửa lại
+		Long có up gì đó về chỉnh sửa button, nhưng project cũ đã bị xóa, nến cac file đó không dùng được
+	chứng minh:
+		Thu chưa up bài mới nên chưa đánh giá thử được
+		phát hiện lỗi: khi kéo đáp án xuống phía dưới thì đáp án bị mất (hoán chuyển với đáp án bị ẩn), không biết đã sửa hay chưa
+		chưa tích hợp
+	trắc nghiệm:
+		đã tích hợp được phần này vào poject, đã có chấm điểm
+	
+	phần script: 
+		do project đã chỉnh sửa thư mục, bổ sung module Trắc Nghiệm nên không còn phù hợp nữa, Nguyên chỉnh lại cho phù hợp
+		
+	phần test plan, test case
+	Bảo Minh đang sửa lại test plan cho phù hợp, và đang viết tối nay sẽ up bản draft để thử nghiệm
