@@ -5,7 +5,7 @@
 	xmlns:controls="clr-namespace:WPFMitsuControls;assembly=WPFMitsuControls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="ColorSwatch.HocDaiSo"
     Title="WPF Flippage sample" Height="800" Width="1280" 
-	Loaded="OnLoaded" WindowState="Maximized" WindowStyle="None" mc:Ignorable="d">
+	Loaded="OnLoaded" WindowState="Maximized" WindowStyle="None" mc:Ignorable="d" Topmost="True">
     <DockPanel>
         <DockPanel.Resources>
             <Style x:Name="title" TargetType="{x:Type Label}">
@@ -21,9 +21,9 @@
         </DockPanel.Resources>
         <DockPanel.Background>
             <LinearGradientBrush StartPoint="0 0.4 " EndPoint="1 0.6">
-                <GradientStop Offset="0" Color="DarkGray" />
+                <GradientStop Offset="0" Color="GreenYellow" />
                 <GradientStop Offset="0.5" Color="White" />
-                <GradientStop Offset="1" Color="DarkGray" />
+                <GradientStop Offset="1" Color="GreenYellow" />
             </LinearGradientBrush>
         </DockPanel.Background>
         <Viewbox Width="1250">
