@@ -5,7 +5,7 @@
 	xmlns:controls="clr-namespace:WPFMitsuControls;assembly=WPFMitsuControls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="ColorSwatch.HocDaiSo"
     Title="WPF Flippage sample" Height="800" Width="1280" 
-	Loaded="OnLoaded" WindowState="Maximized" WindowStyle="None" mc:Ignorable="d" Topmost="True">
+	WindowState="Maximized" WindowStyle="None" mc:Ignorable="d" Topmost="True">
     <DockPanel>
         <DockPanel.Resources>
             <Style x:Name="title" TargetType="{x:Type Label}">
@@ -33,7 +33,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
                 <TextBlock Width="93" HorizontalAlignment="Left" Margin="85,4,0,5">Chọn bài học</TextBlock>
-                <ComboBox x:Name="cbDanhSachBai" HorizontalAlignment="Left" Width="195" Margin="192.5,1,0,4"></ComboBox>
+                <ComboBox x:Name="cbDanhSachBai" HorizontalAlignment="Left" FontSize="14" Width="250" Margin="192.5,1,0,4"></ComboBox>
                 <controls:Book x:Name="myBook" Grid.Row="1" Width="1200" Height="700" Margin="25">
                     <controls:Book.ItemTemplate>
                         <DataTemplate>
