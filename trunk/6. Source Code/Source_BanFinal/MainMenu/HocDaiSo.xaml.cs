@@ -12,6 +12,9 @@ using System.Windows.Shapes;
 using WPFMitsuControls;
 using System.Windows.Xps.Packaging;
 using System.IO.Packaging;
+using System.Xml;
+using System.Xml.Linq;
+using System.Linq;
 namespace ColorSwatch
 {
     /// <summary>
@@ -19,31 +22,52 @@ namespace ColorSwatch
     /// </summary>
     public partial class HocDaiSo : Window
     {
-        int iSoBaiLiThuyet = 2;//Tuy sach
+        List<BaiHoc> listDSBaiHoc;
         public HocDaiSo()
         {
             InitializeComponent();
-        }
-        private void OnLoaded(object sender, RoutedEventArgs args)
-        {
-            List<int> listISoBaiHoc = new List<int>();
-            int i = 0;
-            for (; i < iSoBaiLiThuyet; i++)
+            listDSBaiHoc = new List<BaiHoc>();
+            LoadDanhSachBaiHoc();
+            for (int i = 1; i < listDSBaiHoc.Count; i++)//bỏ qua trang bài nên i đi từ 1
             {
-                string fileName = System.IO.Directory.GetCurrentDirectory() + "/SachDaiSo/" + (i + 1).ToString() + ".xps";
                 // tạo một trang sách lý thuyết
-                TrangLyThuyet temp = new TrangLyThuyet(fileName);
+                TrangLyThuyet temp = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory()+ listDSBaiHoc[i].StrDuongDan);
                 this.myBook.Items.Add(temp);
                 // trang bài tập: Có truyền tham số vào. đây chỉ là vi dụ
-                UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(i+1);
+                UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(i);
                 this.myBook.Items.Add(trangBaiTap);
-                listISoBaiHoc.Add(i);
             }
-            listISoBaiHoc.Add(i);
-            this.cbDanhSachBai.ItemsSource = listISoBaiHoc;
+            this.cbDanhSachBai.ItemsSource = listDSBaiHoc;
+            this.cbDanhSachBai.DisplayMemberPath = "StrName";
+            cbDanhSachBai.SelectedIndex = 0;
             this.cbDanhSachBai.SelectionChanged += new SelectionChangedEventHandler(cbDanhSachBai_SelectionChanged);
         }
 
+        void LoadDanhSachBaiHoc()
+        {
+            // thêm trang bìa
+            BaiHoc bia = new BaiHoc();
+            bia.StrName = "Trang bìa";
+            bia.StrDuongDan = "";
+            listDSBaiHoc.Add(bia);
+            //thêm danh sách các bài học
+            var xElement = XElement.Load(@"BaiTapDaiSo.xml");
+            var DSBaiHocThu = from c in xElement.Descendants("BaiHoc")
+                            select c;
+            if (DSBaiHocThu.Count() != 0)
+            {
+                for (int i = 0; i < DSBaiHocThu.Count(); i++)
+                {
+                    XElement baiHocLT = DSBaiHocThu.ElementAt(i);
+                    BaiHoc temp = new BaiHoc();
+                    temp.StrName = baiHocLT.Attribute("Name").Value;
+                    temp.StrDuongDan = baiHocLT.Attribute("Source").Value;
+                    listDSBaiHoc.Add(temp);
+
+                }
+            }
+
+        }
 
         void cbDanhSachBai_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -84,6 +108,8 @@ namespace ColorSwatch
         private void AutoNextClick(object sender, RoutedEventArgs e)
         {
             myBook.AnimateToNextPage(true, 700);
+            
+            cbDanhSachBai.SelectedIndex = myBook.CurrentSheetIndex + 1;
             myBook.Focus();
         }
         //private void AutoPreviousClick(object sender, RoutedEventArgs e)
@@ -94,6 +120,7 @@ namespace ColorSwatch
         private void AutoPreviousClick(object sender, RoutedEventArgs e)
         {
             myBook.AnimateToPreviousPage(true, 700);
+            cbDanhSachBai.SelectedIndex = myBook.CurrentSheetIndex - 1;
             myBook.Focus();
         }
         private void DisplayModeChecked(object sender, RoutedEventArgs e)
@@ -115,6 +142,23 @@ namespace ColorSwatch
         private void btThoat_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+    }
+    public class BaiHoc
+    {
+        string _strDuongDan;
+
+        public string StrDuongDan
+        {
+            get { return _strDuongDan; }
+            set { _strDuongDan = value; }
+        }
+        string _strName;
+
+        public string StrName
+        {
+            get { return _strName; }
+            set { _strName = value; }
         }
     }
 }
