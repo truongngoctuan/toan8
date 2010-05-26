@@ -1,0 +1,412 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="ColorSwatch.Swatch"
+	x:Name="UserControl"
+	Width="106" Height="266" xmlns:d="http://schemas.microsoft.com/expression/blend/2006" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" xmlns:ColorSwatch="clr-namespace:ColorSwatch">
+
+  <UserControl.Resources>
+    <DataTemplate x:Key="colorTemplate">
+      <Grid Visibility="Visible" Width="106" Height="70.003" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" Margin="-4,0,-2,0" VerticalAlignment="Top">
+        <Rectangle Fill="{Binding Mode=OneWay, XPath=.}" Stroke="{x:Null}" HorizontalAlignment="Left" Margin="3,1,3,0" VerticalAlignment="Top" Width="100" Height="49" x:Name="boxColor"/>
+      </Grid>
+    </DataTemplate>
+    <Storyboard x:Key="openSwatch">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:01" Value="30" KeySpline="0.5,0.5,0.5,1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:01" Value="60" KeySpline="0.5,0.5,0.5,1"/>
+      </DoubleAnimationUsingKeyFrames>
+
+      <ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="swatchButton" Storyboard.TargetProperty="(UIElement.Visibility)">
+        <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Hidden}"/>
+      </ObjectAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="photoPartName" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:01" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="swatch1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="enterSwatch">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatchesGrid" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.1000000" Value="1.3"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatchesGrid" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.1000000" Value="1.3"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="leaveSwatch">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatchesGrid" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeySpline="0.5,0,0.5,0.5" KeyTime="00:00:00.1000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatchesGrid" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeySpline="0.5,0,0.5,0.5" KeyTime="00:00:00.1000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="closeSwatch">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch6" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch5" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+      <ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatchButton" Storyboard.TargetProperty="(UIElement.Visibility)">
+        <DiscreteObjectKeyFrame KeyTime="00:00:00.3000000" Value="{x:Static Visibility.Visible}"/>
+      </ObjectAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="photoPartName" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="toFront_swatch2">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch2" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="toFront_swatch3">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch3" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1.0000000000000002"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1.0000000000000002"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="toFront_swatch4">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch4" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1.0000000000000002"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1.0000000000000002"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="toFront_swatch5">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch5" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch5" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch5" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="toFront_swatch6">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch6" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch6" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1.0000000000000002"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch6" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1.0000000000000002"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="toFront_swatch1">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="swatch1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.1"/>
+        <SplineDoubleKeyFrame KeySpline="0.5,0.5,0.5,1" KeyTime="00:00:00.3000000" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <SolidColorBrush x:Key="ListBorder"
+			Color="#FFA5ACB2"/>
+
+
+
+    <Style
+			TargetType="{x:Type ListBox}" x:Key="SwatchListBoxStyle">
+      <Setter Property="Background"
+				Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+      <Setter Property="BorderBrush"
+				Value="{StaticResource ListBorder}"/>
+      <Setter Property="BorderThickness"
+				Value="1"/>
+      <Setter Property="Foreground"
+				Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+      <Setter Property="ScrollViewer.HorizontalScrollBarVisibility"
+				Value="Auto"/>
+      <Setter Property="ScrollViewer.VerticalScrollBarVisibility"
+				Value="Auto"/>
+      <Setter Property="ScrollViewer.CanContentScroll"
+				Value="true"/>
+      <Setter Property="VerticalContentAlignment"
+				Value="Center"/>
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type ListBox}">
+            <Grid SnapsToDevicePixels="true" x:Name="Bd" Background="{TemplateBinding Background}">
+              <Grid x:Name="swatchBody" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Path Fill="#FF000000" Stretch="Fill" Stroke="{x:Null}" Data="F1 M83,225.5 C77.201012,225.5 72.5,230.201 72.5,236 72.5,241.799 77.201012,246.5 83,246.5 C88.798988,246.5 93.5,241.799 93.5,236 C93.5,230.201 88.798988,225.5 83,225.5 z M7.000001,0.5 L99,0.5 C102.58985,0.5 105.5,3.4101491 105.5,6.999999 L105.5,252 C105.5,255.58984 102.58985,258.5 99,258.5 L7.000001,258.5 C3.4101491,258.5 0.5,255.58984 0.50000191,252 L0.50000191,6.999999 C0.5,3.4101491 3.4101491,0.5 7.000001,0.5 z" Opacity="0.1" Margin="-1,-1,-3,-3"/>
+                <Path Fill="#FF000000" Stretch="Fill" Stroke="{x:Null}" Data="F1 M83,225.5 C77.201012,225.5 72.5,230.201 72.5,236 72.5,241.799 77.201012,246.5 83,246.5 C88.798988,246.5 93.5,241.799 93.5,236 C93.5,230.201 88.798988,225.5 83,225.5 z M7.000001,0.5 L99,0.5 C102.58985,0.5 105.5,3.4101491 105.5,6.999999 L105.5,252 C105.5,255.58984 102.58985,258.5 99,258.5 L7.000001,258.5 C3.4101491,258.5 0.5,255.58984 0.50000191,252 L0.50000191,6.999999 C0.5,3.4101491 3.4101491,0.5 7.000001,0.5 z" Opacity="0.1" Margin="-2,-2,-2,-2"/>
+                <Path Fill="#FF000000" Stretch="Fill" Stroke="{x:Null}" Data="F1 M83,225.5 C77.201012,225.5 72.5,230.201 72.5,236 72.5,241.799 77.201012,246.5 83,246.5 C88.798988,246.5 93.5,241.799 93.5,236 C93.5,230.201 88.798988,225.5 83,225.5 z M7.000001,0.5 L99,0.5 C102.58985,0.5 105.5,3.4101491 105.5,6.999999 L105.5,252 C105.5,255.58984 102.58985,258.5 99,258.5 L7.000001,258.5 C3.4101491,258.5 0.5,255.58984 0.50000191,252 L0.50000191,6.999999 C0.5,3.4101491 3.4101491,0.5 7.000001,0.5 z" Opacity="0.1" Margin="-1,-1,-1,-1"/>
+                <Path Fill="#FFE8E8E8" Stretch="Fill" Stroke="{x:Null}" Data="F1 M83,225.5 C77.201012,225.5 72.5,230.201 72.5,236 72.5,241.799 77.201012,246.5 83,246.5 C88.798988,246.5 93.5,241.799 93.5,236 C93.5,230.201 88.798988,225.5 83,225.5 z M7.000001,0.5 L99,0.5 C102.58985,0.5 105.5,3.4101491 105.5,6.999999 L105.5,252 C105.5,255.58984 102.58985,258.5 99,258.5 L7.000001,258.5 C3.4101491,258.5 0.5,255.58984 0.50000191,252 L0.50000191,6.999999 C0.5,3.4101491 3.4101491,0.5 7.000001,0.5 z"/>
+              </Grid>
+              <ScrollViewer Padding="{TemplateBinding Padding}"
+								Focusable="false" d:LayoutOverrides="Width, Height" Margin="2,2,2,2">
+                <ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+              </ScrollViewer>
+            </Grid>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsEnabled"
+								Value="false">
+                <Setter TargetName="Bd"
+									Property="Border.Background"
+									Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+              </Trigger>
+              <Trigger Property="IsGrouping"
+								Value="true">
+                <Setter Property="ScrollViewer.CanContentScroll"
+									Value="false"/>
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+
+
+
+    <Style
+			TargetType="{x:Type ListBoxItem}" x:Key="SwatchListBoxItemStyle">
+      <Setter Property="Background"
+				Value="Transparent"/>
+      <Setter Property="HorizontalContentAlignment"
+				Value="{Binding Path=HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+      <Setter Property="VerticalContentAlignment"
+				Value="{Binding Path=VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+      <Setter Property="Padding"
+				Value="2,0,0,0"/>
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type ListBoxItem}">
+            <Border x:Name="Bd"
+							Background="{TemplateBinding Background}"
+							BorderBrush="{TemplateBinding BorderBrush}"
+							BorderThickness="{TemplateBinding BorderThickness}"
+							Padding="{TemplateBinding Padding}"
+							SnapsToDevicePixels="true">
+              <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+								VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+								SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsSelected"
+								Value="true">
+                <Setter Property="Foreground"
+									Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}"/>
+                <Setter Property="Background" TargetName="Bd" Value="#FF131726"/>
+              </Trigger>
+              <MultiTrigger>
+                <MultiTrigger.Conditions>
+                  <Condition Property="IsSelected"
+										Value="true"/>
+                  <Condition Property="Selector.IsSelectionActive"
+										Value="false"/>
+                </MultiTrigger.Conditions>
+                <Setter TargetName="Bd"
+									Property="Background"
+									Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                <Setter Property="Foreground"
+									Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+              </MultiTrigger>
+              <Trigger Property="IsEnabled"
+								Value="false">
+                <Setter Property="Foreground"
+									Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+
+
+
+  </UserControl.Resources>
+
+  <UserControl.Triggers>
+    <EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="swatchButton">
+      <BeginStoryboard x:Name="enterSwatch_BeginStoryboard" Storyboard="{StaticResource enterSwatch}"/>
+    </EventTrigger>
+    <EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="swatchButton">
+      <BeginStoryboard x:Name="leaveSwatch_BeginStoryboard" Storyboard="{StaticResource leaveSwatch}"/>
+    </EventTrigger>
+    <EventTrigger RoutedEvent="ColorSwatch:Swatch.OpenSwatch">
+      <BeginStoryboard Storyboard="{StaticResource openSwatch}"/>
+    </EventTrigger>
+  </UserControl.Triggers>
+
+  <Grid x:Name="swatchesGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Width="106" Height="263" RenderTransformOrigin="0.491,0.749">
+    <Grid.RenderTransform>
+      <TransformGroup>
+        <ScaleTransform ScaleX="1" ScaleY="1"/>
+        <SkewTransform AngleX="0" AngleY="0"/>
+        <RotateTransform Angle="0"/>
+        <TranslateTransform X="0" Y="0"/>
+      </TransformGroup>
+    </Grid.RenderTransform>
+    <Grid x:Name="swatch6" RenderTransformOrigin="0.787,0.912" MouseEnter="BringSwatchToFront" MouseLeave="SendSwatchToBack">
+      <Grid.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleX="1.0000000000000002" ScaleY="1.0000000000000002"/>
+          <SkewTransform AngleX="0" AngleY="0"/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform X="0" Y="0"/>
+        </TransformGroup>
+      </Grid.RenderTransform>
+      <ListBox Margin="0,0,0,0" x:Name="swatchColorList6" BorderBrush="{x:Null}" Foreground="#FF000000" ItemsSource="{Binding Mode=Default, XPath=/swatches/swatch[6]/color}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="106" Height="263" Background="{x:Null}" SelectionChanged="OnListBoxSelectionChanged" ItemTemplate="{DynamicResource colorTemplate}" SelectedIndex="-1" Style="{DynamicResource SwatchListBoxStyle}" ItemContainerStyle="{DynamicResource SwatchListBoxItemStyle}"/>
+      <Path Stretch="Fill" Stroke="{x:Null}" x:Name="reflex_swatch6" Data="M7.5000019,201.49978 L16.500339,201.49978 C32.000322,238.49973 79.5008,256.99972 98.500945,257.99924 99.00095,260.49887 7.5000019,258.5 7.5000019,258.5 3.3578644,258.5 0,255.14214 -1.7881393E-07,251 L-1.7881393E-07,208.99978 C1.2149828E-15,204.85764 3.3578644,201.49978 7.5000019,201.49978 z" Opacity="1" Margin="2,2,0,2" VerticalAlignment="Bottom" Height="57.757" IsHitTestVisible="False">
+        <Path.Fill>
+          <LinearGradientBrush EndPoint="0.421,0.026" StartPoint="0.421,0.97">
+            <GradientStop Color="#99FFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </LinearGradientBrush>
+        </Path.Fill>
+      </Path>
+    </Grid>
+    <Grid x:Name="swatch5" RenderTransformOrigin="0.787,0.912" MouseEnter="BringSwatchToFront" MouseLeave="SendSwatchToBack">
+      <Grid.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleX="1" ScaleY="1"/>
+          <SkewTransform AngleX="0" AngleY="0"/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform X="0" Y="0"/>
+        </TransformGroup>
+      </Grid.RenderTransform>
+      <ListBox Margin="0,0,0,0" x:Name="swatchColorList5" BorderBrush="{x:Null}" Foreground="#FF000000" ItemsSource="{Binding Mode=Default, XPath=/swatches/swatch[5]/color}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="106" Height="263" Background="{x:Null}" SelectionChanged="OnListBoxSelectionChanged" ItemTemplate="{DynamicResource colorTemplate}" SelectedIndex="-1" Style="{DynamicResource SwatchListBoxStyle}" ItemContainerStyle="{DynamicResource SwatchListBoxItemStyle}"/>
+      <Path Stretch="Fill" Stroke="{x:Null}" x:Name="reflex_swatch5" Data="M7.5000019,-1.4305115E-06 L16.500339,-1.4305115E-06 C7.0001436,64.499928 -1.500027,222.49975 66.00102,257.99924 66.501025,260.49887 7.5000019,258.5 7.5000019,258.5 3.3578644,258.5 0,255.14214 -1.7881393E-07,251 L-1.7881393E-07,7.5000005 C0,3.3578644 3.3578644,0 7.5000019,-1.4305115E-06 z" Opacity="1" Margin="2,2,38.497,0" IsHitTestVisible="False">
+        <Path.Fill>
+          <LinearGradientBrush EndPoint="0.689,0.301" StartPoint="-0.152,0.939">
+            <GradientStop Color="#99FFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </LinearGradientBrush>
+        </Path.Fill>
+      </Path>
+    </Grid>
+    <Grid x:Name="swatch4" RenderTransformOrigin="0.787,0.912" MouseEnter="BringSwatchToFront" MouseLeave="SendSwatchToBack">
+      <Grid.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleX="1.0000000000000002" ScaleY="1.0000000000000002"/>
+          <SkewTransform AngleX="0" AngleY="0"/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform X="0" Y="0"/>
+        </TransformGroup>
+      </Grid.RenderTransform>
+      <ListBox Margin="0,0,0,0" x:Name="swatchColorList4" BorderBrush="{x:Null}" Foreground="#FF000000" ItemsSource="{Binding Mode=Default, XPath=/swatches/swatch[4]/color}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="106" Height="263" Background="{x:Null}" SelectionChanged="OnListBoxSelectionChanged" ItemTemplate="{DynamicResource colorTemplate}" SelectedIndex="-1" Style="{DynamicResource SwatchListBoxStyle}" ItemContainerStyle="{DynamicResource SwatchListBoxItemStyle}"/>
+      <Path Stretch="Fill" Stroke="{x:Null}" x:Name="reflex_swatch4" Data="M7.5000019,-1.4305115E-06 L23.000228,-1.4305115E-06 C2.0000196,64.499928 2.0000196,170.49981 19.000189,257.99924 19.500194,260.49887 7.5000019,258.5 7.5000019,258.5 3.3578644,258.5 0,255.14214 -1.7881393E-07,251 L-1.7881393E-07,7.5000005 C0,3.3578644 3.3578644,0 7.5000019,-1.4305115E-06 z" Width="23" Opacity="1" HorizontalAlignment="Left" Margin="2,2,0,2.243" IsEnabled="False">
+        <Path.Fill>
+          <LinearGradientBrush EndPoint="1.587,0.476" StartPoint="-0.239,0.48">
+            <GradientStop Color="#99FFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </LinearGradientBrush>
+        </Path.Fill>
+      </Path>
+    </Grid>
+    <Grid x:Name="swatch3" RenderTransformOrigin="0.787,0.912" MouseEnter="BringSwatchToFront" MouseLeave="SendSwatchToBack">
+      <Grid.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleX="1.0000000000000002" ScaleY="1.0000000000000002"/>
+          <SkewTransform AngleX="0" AngleY="0"/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform X="0" Y="0"/>
+        </TransformGroup>
+      </Grid.RenderTransform>
+      <ListBox Margin="0,0,0,0" x:Name="swatchColorList3" BorderBrush="{x:Null}" Foreground="#FF000000" ItemsSource="{Binding Mode=Default, XPath=/swatches/swatch[3]/color}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="106" Height="263" Background="{x:Null}" SelectionChanged="OnListBoxSelectionChanged" ItemTemplate="{DynamicResource colorTemplate}" SelectedIndex="-1" Style="{DynamicResource SwatchListBoxStyle}" ItemContainerStyle="{DynamicResource SwatchListBoxItemStyle}"/>
+      <Path Stretch="Fill" Stroke="{x:Null}" x:Name="reflex_swatch3" Data="M7.5000019,-1.4305115E-06 L28.500283,-1.4305115E-06 C13.500136,33.999999 8.5000846,165.49982 19.000189,257.99924 19.500194,260.49887 7.5000019,258.5 7.5000019,258.5 3.3578644,258.5 0,255.14214 -1.7881393E-07,251 L-1.7881393E-07,7.5000005 C0,3.3578644 3.3578644,0 7.5000019,-1.4305115E-06 z" Opacity="1" HorizontalAlignment="Left" Margin="2,2,0,2.243" Width="28.5" IsHitTestVisible="False">
+        <Path.Fill>
+          <LinearGradientBrush EndPoint="1.439,0.854" StartPoint="-0.596,0.137">
+            <GradientStop Color="#99FFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </LinearGradientBrush>
+        </Path.Fill>
+      </Path>
+    </Grid>
+    <Grid x:Name="swatch2" RenderTransformOrigin="0.787,0.912" MouseEnter="BringSwatchToFront" MouseLeave="SendSwatchToBack">
+      <Grid.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleX="1" ScaleY="1"/>
+          <SkewTransform AngleX="0" AngleY="0"/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform X="0" Y="0"/>
+        </TransformGroup>
+      </Grid.RenderTransform>
+      <ListBox Margin="0,0,0,0" x:Name="swatchColorList2" BorderBrush="{x:Null}" Foreground="#FF000000" ItemTemplate="{DynamicResource colorTemplate}" ItemsSource="{Binding Mode=Default, XPath=/swatches/swatch[2]/color}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="106" Height="263" Background="{x:Null}" SelectionChanged="OnListBoxSelectionChanged" SelectedIndex="-1" Style="{DynamicResource SwatchListBoxStyle}" ItemContainerStyle="{DynamicResource SwatchListBoxItemStyle}"/>
+      <Path Stretch="Fill" Stroke="{x:Null}" x:Name="reflex_swatch2" Data="M7.5000019,-1.4305115E-06 L41.000406,-1.4305115E-06 C22.500222,31.499999 9.5000916,125.14604 9.5000936,222.5 9.5000916,232.64357 11.655921,248.65404 11.995617,258.5 L7.5000019,258.5 C3.3578644,258.5 0,255.14214 -1.7881393E-07,251 L-1.7881393E-07,7.5000005 C0,3.3578644 3.3578644,0 7.5000019,-1.4305115E-06 z" Opacity="1" HorizontalAlignment="Left" Margin="2,2,0,3" Width="41" IsHitTestVisible="False">
+        <Path.Fill>
+          <LinearGradientBrush EndPoint="0.427,0.992" StartPoint="-0.012,0">
+            <GradientStop Color="#99FFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </LinearGradientBrush>
+        </Path.Fill>
+      </Path>
+    </Grid>
+    <Grid x:Name="swatch1" Width="106" RenderTransformOrigin="0.787,0.912" HorizontalAlignment="Left" Margin="0,0,0,0" Focusable="True" VerticalAlignment="Stretch">
+      <Grid.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleX="1" ScaleY="1"/>
+          <SkewTransform AngleX="0" AngleY="0"/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform X="0" Y="0"/>
+        </TransformGroup>
+      </Grid.RenderTransform>
+      <ListBox Margin="0,0,0,0" x:Name="swatchColorList1" BorderBrush="{x:Null}" Foreground="#FF000000" ItemsSource="{Binding Mode=Default, XPath=/swatches/swatch[1]/color}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="106" Height="263" Background="{x:Null}" IsEnabled="True" SelectionChanged="OnListBoxSelectionChanged" ItemTemplate="{DynamicResource colorTemplate}" SelectedIndex="-1" Style="{DynamicResource SwatchListBoxStyle}" ItemContainerStyle="{DynamicResource SwatchListBoxItemStyle}" IsTextSearchEnabled="False"/>
+      <Path Opacity="1" Stretch="Fill" Stroke="{x:Null}" x:Name="reflex_swatch1" Width="47.293" Data="F1 M7.5000019,-1.4305115E-06 L47.293468,-1.4305115E-06 C25.862474,46.053486 11.5,131.14604 11.500002,228.5 C11.5,238.64357 11.655921,248.65404 11.995617,258.5 L7.5000019,258.5 C3.3578644,258.5 0,255.14214 -1.7881393E-07,251 L-1.7881393E-07,7.5000005 C0,3.3578644 3.3578644,0 7.5000019,-1.4305115E-06 z" IsHitTestVisible="False" HorizontalAlignment="Left" Margin="2,2,0,0">
+        <Path.Fill>
+          <LinearGradientBrush EndPoint="0.233,0.994" StartPoint="0.338,0.002">
+            <GradientStop Color="#99FFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </LinearGradientBrush>
+        </Path.Fill>
+      </Path>
+    </Grid>
+    <Rectangle Opacity="0" Fill="#FFF03737" Stroke="#FF000000" x:Name="swatchButton" MouseUp="OnOpenSwatch"/>
+    <TextBlock Margin="5,0,37,-2" VerticalAlignment="Bottom" Height="27" FontFamily="Segoe" FontSize="14" Foreground="#FF353535" Text="{Binding XPath=/swatches/name, Mode=Default}" TextWrapping="Wrap" Opacity="0" x:Name="photoPartName"/><Button Height="23" Margin="18,40,13,0" Name="button1" VerticalAlignment="Top">Button</Button><Button Margin="20,107,11,0" Name="button2" Height="23" VerticalAlignment="Top">Button</Button><Button Height="23" Margin="17,0,14,72" Name="button3" VerticalAlignment="Bottom">Button</Button>
+  </Grid>
+</UserControl>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DanhSachBaiHoc>
+  <BaiHoc ThuTu="1" Name="Bài1:Nhân đơn thức với đa thức" Source="\SachDaiSo\1.xps">
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="1"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="2"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="3"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="4"></TracNghiem>
+  </BaiHoc>
+  <BaiHoc ThuTu="2" Name="Bài2:Nhân đa thức với đa thức" Source="\SachDaiSo\2.xps">
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="1"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="2"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="3"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="4"></TracNghiem>
+  </BaiHoc>
+  <BaiHoc ThuTu="3" Name="Bài3:Những hằng đẳng thức đáng nhớ" Source="\SachDaiSo\3.xps">
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="1"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="2"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="3"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="4"></TracNghiem>
+  </BaiHoc>
+  <BaiHoc ThuTu="4" Name="Bài4:Những hằng đẳng thức đáng nhớ tiếp theo(tiếp)" Source="\SachDaiSo\4.xps">
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="1"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="2"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="3"></TracNghiem>
+    <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="4"></TracNghiem>
+  </BaiHoc>
+</DanhSachBaiHoc>

@@ -1,0 +1,40 @@
+﻿<!--==============================================================
+
+Microsoft(R) EXPRESSION Blend(TM)
+
+============================================================= -->
+
+<swatches>
+	<name>Frames</name>
+	<swatch>
+		<color>#ffFFEBE2</color>
+		<color>#ffD2A793</color>
+		<color>#ffDA9C5E</color>
+	</swatch>
+  <swatch>
+    <color>#ffECF8C7</color>
+    <color>#ffC8E893</color>
+    <color>#ff9BBF5F</color>
+  </swatch>
+  <swatch>
+    <color>#ffBBF2DD</color>
+    <color>#ff84E4C8</color>
+    <color>#ff44DCD4</color>
+  </swatch>
+  <swatch>
+    <color>#ffBFE5FF</color>
+    <color>#ff98B8F0</color>
+    <color>#ff669DFF</color>
+  </swatch>
+  <swatch>
+    <color>#ffD9D0F6</color>
+    <color>#ffC3A6F4</color>
+    <color>#ffBE90EA</color>
+  </swatch>
+  <swatch>
+    <color>#fffbfbfb</color>
+    <color>#ffbbbbbb</color>
+    <color>#ff999999</color>
+  </swatch>
+
+</swatches>
