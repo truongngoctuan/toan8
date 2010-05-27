@@ -44,6 +44,19 @@
 	
 	<!-- filename đường dẫn đến thư mục chứa các file .exe va .dll test của nunit mà mình đã tạo ra -->
 	<property name="filename" value="${project.hoc.toan.lop.8.build}\MyUnitTest\bin\Debug\" />	
+	
+	<delete>
+		<fileset basedir="." defaultexcludes="false">
+			<include name="**/.svn" />
+		</fileset>
+	</delete>
+	<delete>
+		<fileset basedir=".\Tools" defaultexcludes="false">
+			<include name="**/.svn" />
+			<include name="**/.svn/**/*" />
+		</fileset>
+	</delete>
+	
 	<!-- target -->
    
 	<target name="run.all" depends="test.unit">
@@ -83,8 +96,8 @@
     	<echo message = "get.source.project is ok"/>
     </target> 
     <target name="build.init" depends="cleanup">
-    	
     	<mkdir dir="${log.dir}" />	
+    	
     	<record name="${build.success.log}" level="Info" action="Start" />
     	<record name="${build.failure.log}" level="Verbose" action="Start" />
     	
