@@ -23,27 +23,73 @@ namespace ColorSwatch
     public partial class HocDaiSo : Window
     {
         List<BaiHoc> listDSBaiHoc;
+        List<bool> listTrangSachDaDuocTao;
         public HocDaiSo()
         {
             InitializeComponent();
             listDSBaiHoc = new List<BaiHoc>();
+            
             LoadDanhSachBaiHoc();
             for (int i = 1; i < listDSBaiHoc.Count; i++)//bỏ qua trang bài nên i đi từ 1
             {
                 // tạo một trang sách lý thuyết
-                TrangLyThuyet temp = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory()+ listDSBaiHoc[i].StrDuongDan);
+                TrangLyThuyet temp = new TrangLyThuyet();
+               // TrangLyThuyet temp = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory()+ listDSBaiHoc[i].StrDuongDan);
                 this.myBook.Items.Add(temp);
                 // trang bài tập: Có truyền tham số vào. đây chỉ là vi dụ
                 //UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[i].IChuong, listDSBaiHoc[i].IBai);
                 UCTrangBaiTap trangBaiTap = new UCTrangBaiTap();
                 this.myBook.Items.Add(trangBaiTap);
             }
+            //Khỏi tạo cờ đánh dấu trang nào đã được tạo
+            listTrangSachDaDuocTao = new List<bool>();
+            for (int i = 0; i< listDSBaiHoc.Count * 2+2 ;i++ )
+            {
+                listTrangSachDaDuocTao.Add(false);
+            }
+           // listTrangSachDaDuocTao
             this.cbDanhSachBai.ItemsSource = listDSBaiHoc;
             this.cbDanhSachBai.DisplayMemberPath = "StrName";
             cbDanhSachBai.SelectedIndex = 0;
             this.cbDanhSachBai.SelectionChanged += new SelectionChangedEventHandler(cbDanhSachBai_SelectionChanged);
         }
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            int iTrangHienTai = this.myBook.CurrentSheetIndex;
+            if (iTrangHienTai+1 < listDSBaiHoc.Count - 1 )
+            {
 
+                if (listTrangSachDaDuocTao[(iTrangHienTai + 1) * 2] == false)
+                {
+                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[iTrangHienTai + 1].IChuong, listDSBaiHoc[iTrangHienTai + 1].IBai);
+                    myBook.Items[(iTrangHienTai + 1) * 2] = trangBaiTap;
+                }
+                if (listTrangSachDaDuocTao[(iTrangHienTai + 1) * 2 - 1] == false)
+                {
+                    TrangLyThuyet trangLyThuyet = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory() + listDSBaiHoc[iTrangHienTai + 1].StrDuongDan);
+                    myBook.Items[(iTrangHienTai + 1) * 2 - 1] = trangLyThuyet;
+                }
+            }
+            // Nếu trang chưa được tạo thì tạo mới
+            if (iTrangHienTai -1 > 0  )
+            {
+                if (listTrangSachDaDuocTao[(iTrangHienTai - 1) * 2 ] == false)
+                {
+                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[iTrangHienTai - 1].IChuong, listDSBaiHoc[iTrangHienTai - 1].IBai);
+                    myBook.Items[(iTrangHienTai - 1) * 2] = trangBaiTap;
+                }
+                if (listTrangSachDaDuocTao[(iTrangHienTai - 1) * 2 - 1] == false)
+                {
+                    TrangLyThuyet trangLyThuyet = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory() + listDSBaiHoc[iTrangHienTai - 1].StrDuongDan);
+                    myBook.Items[(iTrangHienTai - 1) * 2 - 1] = trangLyThuyet;
+                }
+            }
+        }
+        //protected override void OnMouseLeftButtonUp(MouseButtonEventArgs e)
+        //{
+        //    base.OnMouseLeftButtonUp(e);
+        //    this.cbDanhSachBai.SelectedIndex = myBook.CurrentSheetIndex;
+        //}
         void LoadDanhSachBaiHoc()
         {
             // thêm trang bìa
@@ -97,8 +143,19 @@ namespace ColorSwatch
                 //   myBook.AnimateToLeftSheet();
                 //else
                 //   myBook.AnimateToRightSheet();
-
-                myBook.CurrentSheetIndex =  iTrangHienTai;
+                if (iTrangHienTai < listDSBaiHoc.Count -1 && listTrangSachDaDuocTao[iTrangHienTai * 2]==false)
+                {
+                    myBook.CurrentSheetIndex = iTrangHienTai;
+                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[iTrangHienTai].IChuong, listDSBaiHoc[iTrangHienTai].IBai);
+                    myBook.Items[iTrangHienTai * 2] = trangBaiTap;
+                }
+                // Nếu trang chưa được tạo thì tạo mới
+                if (iTrangHienTai > 0 && listTrangSachDaDuocTao[iTrangHienTai * 2 - 1]==false)
+                {
+                    TrangLyThuyet trangLyThuyet = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory() + listDSBaiHoc[iTrangHienTai].StrDuongDan);
+                    myBook.Items[iTrangHienTai * 2 - 1] = trangLyThuyet;
+                }
+                
                 
                 myBook.Focus();
             }
@@ -126,7 +183,7 @@ namespace ColorSwatch
         //}
         private void AutoNextClick(object sender, RoutedEventArgs e)
         {
-            myBook.AnimateToNextPage(true, 700);
+            myBook.AnimateToNextPage(true, 400);
             
             cbDanhSachBai.SelectedIndex = myBook.CurrentSheetIndex + 1;
             myBook.Focus();
@@ -138,7 +195,7 @@ namespace ColorSwatch
         //}
         private void AutoPreviousClick(object sender, RoutedEventArgs e)
         {
-            myBook.AnimateToPreviousPage(true, 700);
+            myBook.AnimateToPreviousPage(true, 400);
             cbDanhSachBai.SelectedIndex = myBook.CurrentSheetIndex - 1;
             myBook.Focus();
         }
