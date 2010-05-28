@@ -21,5 +21,8 @@ namespace ColorSwatch
             FixedDocumentSequence fixedDoc = document.GetFixedDocumentSequence();
             this.Document = fixedDoc;
         }
+        public TrangLyThuyet()
+        { 
+        }
     }
 }

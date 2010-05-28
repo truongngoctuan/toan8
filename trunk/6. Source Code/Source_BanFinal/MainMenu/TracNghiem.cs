@@ -70,7 +70,8 @@ namespace ColorSwatch
                 DapAn.Add(bool.Parse(sr.ReadLine().Trim().ToLower()));
             }
             sr.Close();
-
+            //Phần đáp án dư đáp án đầu:
+            DapAn.RemoveAt(0);
             if (files.Count > 1)
             {
                 ListBoxItem lbi = new ListBoxItem();
@@ -133,9 +134,9 @@ namespace ColorSwatch
 
         public double ChamDiem(double diem)
         {
-            int nDapAn = DapAn.FindAll(delegate(bool b1) { return b1; }).Count;
+            int nDapAn = DapAn.FindAll(delegate(bool b1) { return b1; }).Count ;
             bool sai = false;
-            for (int i = 0; i < DapAn.Count; ++i)
+            for (int i = 0; i < Cau.Count -1 ; ++i)
             {
                 ListBoxItem lbi = Cau[i + 1];
                 StackPanel sp = (StackPanel)lbi.Content;
