@@ -34,7 +34,8 @@ namespace ColorSwatch
                 TrangLyThuyet temp = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory()+ listDSBaiHoc[i].StrDuongDan);
                 this.myBook.Items.Add(temp);
                 // trang bài tập: Có truyền tham số vào. đây chỉ là vi dụ
-                UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[i].IChuong, listDSBaiHoc[i].IBai);
+                //UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[i].IChuong, listDSBaiHoc[i].IBai);
+                UCTrangBaiTap trangBaiTap = new UCTrangBaiTap();
                 this.myBook.Items.Add(trangBaiTap);
             }
             this.cbDanhSachBai.ItemsSource = listDSBaiHoc;
