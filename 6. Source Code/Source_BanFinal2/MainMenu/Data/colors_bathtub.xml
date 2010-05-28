@@ -1,0 +1,40 @@
+﻿<!--==============================================================
+
+Microsoft(R) EXPRESSION Blend(TM)
+
+============================================================= -->
+
+<swatches>
+	<name>Bathtub</name>
+	<swatch>
+		<color>#ffF8E6D7</color>
+		<color>#ffC3A480</color>
+		<color>#ffDCA84D</color>
+	</swatch>
+  <swatch>
+    <color>#ffF1F2A3</color>
+    <color>#ffF3F45D</color>
+    <color>#ffDEF229</color>
+  </swatch>
+  <swatch>
+    <color>#ffC6F69A</color>
+    <color>#ffB0F85F</color>
+    <color>#ff66E844</color>
+  </swatch>
+  <swatch>
+    <color>#ffA4F4C3</color>
+    <color>#ff55E8A3</color>
+    <color>#ff34CEA2</color>
+  </swatch>
+  <swatch>
+    <color>#ffAEF1F4</color>
+    <color>#ff61DDF8</color>
+    <color>#ff438FDA</color>
+  </swatch>
+  <swatch>
+    <color>#fffafafa</color>
+    <color>#ffbbbbbb</color>
+    <color>#ff999999</color>
+  </swatch>
+
+</swatches>
