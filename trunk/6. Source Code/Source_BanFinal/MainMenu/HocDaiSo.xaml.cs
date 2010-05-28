@@ -34,7 +34,7 @@ namespace ColorSwatch
                 TrangLyThuyet temp = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory()+ listDSBaiHoc[i].StrDuongDan);
                 this.myBook.Items.Add(temp);
                 // trang bài tập: Có truyền tham số vào. đây chỉ là vi dụ
-                UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(i);
+                UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[i].IChuong, listDSBaiHoc[i].IBai);
                 this.myBook.Items.Add(trangBaiTap);
             }
             this.cbDanhSachBai.ItemsSource = listDSBaiHoc;
@@ -60,8 +60,26 @@ namespace ColorSwatch
                 {
                     XElement baiHocLT = DSBaiHocThu.ElementAt(i);
                     BaiHoc temp = new BaiHoc();
-                    temp.StrName = baiHocLT.Attribute("Name").Value;
+                    try
+                    {
+                        temp.IBai = int.Parse(baiHocLT.Attribute("Bai").Value);
+                        temp.IChuong = int.Parse(baiHocLT.Attribute("Chuong").Value);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Trong file xml Muc bai học thuộc tính Chuong,Bai Phải là số");
+                    }
+                    if (temp.IBai == 1)
+                    {
+                        temp.StrName = "Chương " + temp.IChuong.ToString()+ ":\n" + "\t" + baiHocLT.Attribute("Name").Value;
+                    }
+                    else
+                    {
+                        temp.StrName = "\t" + baiHocLT.Attribute("Name").Value;
+                    }
                     temp.StrDuongDan = baiHocLT.Attribute("Source").Value;
+                    
+                    
                     listDSBaiHoc.Add(temp);
 
                 }
@@ -159,6 +177,20 @@ namespace ColorSwatch
         {
             get { return _strName; }
             set { _strName = value; }
+        }
+        int iChuong;
+
+        public int IChuong
+        {
+            get { return iChuong; }
+            set { iChuong = value; }
+        }
+        int iBai;
+
+        public int IBai
+        {
+            get { return iBai; }
+            set { iBai = value; }
         }
     }
 }
