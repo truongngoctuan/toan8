@@ -11,6 +11,10 @@
     <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="8" ></TracNghiem>
     <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="9" ></TracNghiem>
     <TracNghiem Source="\BaiTapDaiSo\Chuong1\1" Cau="10" ></TracNghiem>
+    <SapXepChungMinh Source="\BaiTapDaiSo\Chuong01\Bai01\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapDaiSo\Chuong01\Bai01\Cau02"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapDaiSo\Chuong01\Bai01\Cau03"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapDaiSo\Chuong01\Bai01\Cau04"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="2" Name="Bài2:Nhân đa thức với đa thức" Source="\BaiLyThuyet\DaiSo\T8_C1_Bai2.xps">
     <TracNghiem Source="\BaiTapDaiSo\Chuong1\2" Cau="1" ></TracNghiem>

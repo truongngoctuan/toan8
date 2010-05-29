@@ -276,10 +276,10 @@
   <ItemGroup>
     <Resource Include="images\daiso_nen.png" />
     <Content Include="BaiTapDaiSo.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="BaiTapHinhHoc.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="images\DoiCho.png" />
     <Content Include="SachDaiSo\1.xps">
