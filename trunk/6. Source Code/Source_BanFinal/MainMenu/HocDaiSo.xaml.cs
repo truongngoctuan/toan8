@@ -24,30 +24,45 @@ namespace ColorSwatch
     {
         List<BaiHoc> listDSBaiHoc;
         List<bool> listTrangSachDaDuocTao;
+        string _mpathSach;
         public HocDaiSo()
         {
             InitializeComponent();
-            listDSBaiHoc = new List<BaiHoc>();
+           // KhoiTaoCuonSach();
             
+        }
+        public HocDaiSo(string duongDanToiSach)
+        {
+            InitializeComponent();
+            _mpathSach = duongDanToiSach;
+            KhoiTaoCuonSach();
+
+        }
+        protected void KhoiTaoCuonSach()
+        {
+            listDSBaiHoc = new List<BaiHoc>();
+
             LoadDanhSachBaiHoc();
-            for (int i = 1; i < listDSBaiHoc.Count; i++)//bỏ qua trang bài nên i đi từ 1
+            for (int i = 1; i < listDSBaiHoc.Count - 1; i++)//bỏ qua trang bìa và trang cuối
             {
                 // tạo một trang sách lý thuyết
                 TrangLyThuyet temp = new TrangLyThuyet();
-               // TrangLyThuyet temp = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory()+ listDSBaiHoc[i].StrDuongDan);
+                // TrangLyThuyet temp = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory()+ listDSBaiHoc[i].StrDuongDan);
                 this.myBook.Items.Add(temp);
                 // trang bài tập: Có truyền tham số vào. đây chỉ là vi dụ
                 //UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[i].IChuong, listDSBaiHoc[i].IBai);
                 UCTrangBaiTap trangBaiTap = new UCTrangBaiTap();
                 this.myBook.Items.Add(trangBaiTap);
             }
+            //thêm trang cuối
+            this.myBook.Items.Add(new UCTheEnd());
             //Khỏi tạo cờ đánh dấu trang nào đã được tạo
             listTrangSachDaDuocTao = new List<bool>();
-            for (int i = 0; i< listDSBaiHoc.Count * 2+2 ;i++ )
+            for (int i = 0; i < listDSBaiHoc.Count * 2 + 2; i++)
             {
                 listTrangSachDaDuocTao.Add(false);
             }
-           // listTrangSachDaDuocTao
+            // listTrangSachDaDuocTao
             this.cbDanhSachBai.ItemsSource = listDSBaiHoc;
             this.cbDanhSachBai.DisplayMemberPath = "StrName";
             cbDanhSachBai.SelectedIndex = 0;
@@ -98,7 +113,7 @@ namespace ColorSwatch
             bia.StrDuongDan = "";
             listDSBaiHoc.Add(bia);
             //thêm danh sách các bài học
-            var xElement = XElement.Load(@"BaiTapDaiSo.xml");
+            var xElement = XElement.Load(_mpathSach);
             var DSBaiHocThu = from c in xElement.Descendants("BaiHoc")
                             select c;
             if (DSBaiHocThu.Count() != 0)
@@ -130,6 +145,10 @@ namespace ColorSwatch
                     listDSBaiHoc.Add(temp);
 
                 }
+                BaiHoc trangCuoi = new BaiHoc();
+                trangCuoi.StrName = "Trang Cuối";
+                trangCuoi.StrDuongDan = "";
+                listDSBaiHoc.Add(trangCuoi);
             }
 
         }
@@ -143,14 +162,15 @@ namespace ColorSwatch
                 //   myBook.AnimateToLeftSheet();
                 //else
                 //   myBook.AnimateToRightSheet();
-                if (iTrangHienTai < listDSBaiHoc.Count -1 && listTrangSachDaDuocTao[iTrangHienTai * 2]==false)
+                myBook.CurrentSheetIndex = iTrangHienTai;
+                if (iTrangHienTai > 0 && iTrangHienTai < listDSBaiHoc.Count -1 && listTrangSachDaDuocTao[iTrangHienTai * 2]==false)
                 {
-                    myBook.CurrentSheetIndex = iTrangHienTai;
+                    
                     UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[iTrangHienTai].IChuong, listDSBaiHoc[iTrangHienTai].IBai);
                     myBook.Items[iTrangHienTai * 2] = trangBaiTap;
                 }
                 // Nếu trang chưa được tạo thì tạo mới
-                if (iTrangHienTai > 0 && listTrangSachDaDuocTao[iTrangHienTai * 2 - 1]==false)
+                if (iTrangHienTai > 0 && iTrangHienTai < listDSBaiHoc.Count - 1 && listTrangSachDaDuocTao[iTrangHienTai * 2 - 1] == false)
                 {
                     TrangLyThuyet trangLyThuyet = new TrangLyThuyet(System.IO.Directory.GetCurrentDirectory() + listDSBaiHoc[iTrangHienTai].StrDuongDan);
                     myBook.Items[iTrangHienTai * 2 - 1] = trangLyThuyet;
