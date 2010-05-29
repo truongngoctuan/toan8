@@ -42,14 +42,36 @@ namespace ColorSwatch
                     switch (cau.Name.ToString())
                     {
                         case "TracNghiem":
+                            StackPanel sp = new StackPanel();
+                            sp.Orientation = Orientation.Vertical;
+                            TextBlock tbTemp = new TextBlock();
+                            tbTemp.FontSize = 16;
+                            tbTemp.Text = "Câu " + (i+1).ToString();
+                            sp.Children.Add(tbTemp);
+                            //tạo cau trắc nghiệm
                             TracNghiem temp = new TracNghiem();
                             string path = AppDomain.CurrentDomain.BaseDirectory + cau.Attribute("Source").Value;
                             string strThuTuCau = cau.Attribute("Cau").Value;
                             temp.LayCauHoi(path,strThuTuCau, 15, 50);
-                            this.spDanhSachCauHoi.Children.Add(temp);
+                            //Thêm câu trắc nghiệm vào stackpanel
+                            sp.Children.Add(temp);
+                            this.spDanhSachCauHoi.Children.Add(sp);
                             break;
                         case "SapXepChungMinh":
+                            StackPanel sp1 = new StackPanel();
+                            sp1.Orientation = Orientation.Vertical;
+                            TextBlock tbTemp1 = new TextBlock();
+                            tbTemp1.FontSize = 16;
+                            tbTemp1.Text = "Câu " + (i + 1).ToString();
+                            sp1.Children.Add(tbTemp1);
                             //tao câu sắp xếp chứng minh
+                            SapXepChungMinh ctSXCM = new SapXepChungMinh();
+                            string pathFile = cau.Attribute("Source").Value;
+                            ctSXCM.HienThi(pathFile);
+                            //Thêm câu trắc nghiệm vào stackpanel
+                            sp1.Children.Add(ctSXCM);
+                            this.spDanhSachCauHoi.Children.Add(sp1);
+                            //this.spDanhSachCauHoi.Children.Add(ctSXCM);
                             break;
 
                     }
@@ -68,13 +90,26 @@ namespace ColorSwatch
             // chidlren cuối cùng là button chấm điểm
             double Diem = 0;
             int socau = 0;
-            for (int i = 0; i < this.spDanhSachCauHoi.Children.Count; i++)
+            for (int i = 0; i < this.spDanhSachCauHoi.Children.Count -1; i++)
             {
-                string temp = spDanhSachCauHoi.Children[i].GetType().ToString();
-                if (temp == "ColorSwatch.TracNghiem")
+                string strSPtemp = spDanhSachCauHoi.Children[i].GetType().ToString();
+
+                if (strSPtemp == "System.Windows.Controls.StackPanel")
                 {
-                    Diem += (spDanhSachCauHoi.Children[i] as TracNghiem).ChamDiem(1);
-                    socau++;
+                    StackPanel spTemp = spDanhSachCauHoi.Children[i] as StackPanel;
+                    for (int j = 0; j < spTemp.Children.Count; j++)
+                    {
+                        string temp = spTemp.Children[j].GetType().ToString();
+                        if (temp == "ColorSwatch.TracNghiem")
+                        {
+                            Diem += (spTemp.Children[j] as TracNghiem).ChamDiem(1);
+                            socau++;
+                        }
+                        if (temp == "ColorSwatch.SapXepChungMinh")
+                        {
+                            Diem += (spTemp.Children[j] as SapXepChungMinh).KiemTra();
+                        }
+                    }
                 }
                 // nếu là bìa sắp xếp chứng minh
             }

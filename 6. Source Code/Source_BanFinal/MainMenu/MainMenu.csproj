@@ -100,6 +100,7 @@
     <Compile Include="Room.xaml.cs">
       <DependentUpon>Room.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SapXepChungMinh.cs" />
     <Compile Include="Swatch.xaml.cs">
       <DependentUpon>Swatch.xaml</DependentUpon>
     </Compile>
@@ -277,6 +278,10 @@
     <Content Include="BaiTapDaiSo.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="BaiTapHinhHoc.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="images\DoiCho.png" />
     <Content Include="SachDaiSo\1.xps">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
