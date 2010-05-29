@@ -25,10 +25,10 @@ namespace ColorSwatch
         {
             InitializeComponent();
         }
-        public UCTrangBaiTap(int iChuong,int iBai)
+        public UCTrangBaiTap(string LoaiSach,int iChuong,int iBai)
         {
             InitializeComponent();
-            var xElement = XElement.Load(@"BaiTapDaiSo.xml");
+            var xElement = XElement.Load(LoaiSach);
             var baiHocThu = from c in xElement.Descendants("BaiHoc")
                             where int.Parse(c.Attribute("Chuong").Value) == iChuong && int.Parse(c.Attribute("Bai").Value) == iBai  
                             select c;

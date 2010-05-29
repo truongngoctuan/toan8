@@ -76,7 +76,7 @@ namespace ColorSwatch
 
                 if (listTrangSachDaDuocTao[(iTrangHienTai + 1) * 2] == false)
                 {
-                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[iTrangHienTai + 1].IChuong, listDSBaiHoc[iTrangHienTai + 1].IBai);
+                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(_mpathSach,listDSBaiHoc[iTrangHienTai + 1].IChuong, listDSBaiHoc[iTrangHienTai + 1].IBai);
                     myBook.Items[(iTrangHienTai + 1) * 2] = trangBaiTap;
                 }
                 if (listTrangSachDaDuocTao[(iTrangHienTai + 1) * 2 - 1] == false)
@@ -90,7 +90,7 @@ namespace ColorSwatch
             {
                 if (listTrangSachDaDuocTao[(iTrangHienTai - 1) * 2 ] == false)
                 {
-                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[iTrangHienTai - 1].IChuong, listDSBaiHoc[iTrangHienTai - 1].IBai);
+                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(_mpathSach,listDSBaiHoc[iTrangHienTai - 1].IChuong, listDSBaiHoc[iTrangHienTai - 1].IBai);
                     myBook.Items[(iTrangHienTai - 1) * 2] = trangBaiTap;
                 }
                 if (listTrangSachDaDuocTao[(iTrangHienTai - 1) * 2 - 1] == false)
@@ -166,7 +166,7 @@ namespace ColorSwatch
                 if (iTrangHienTai > 0 && iTrangHienTai < listDSBaiHoc.Count -1 && listTrangSachDaDuocTao[iTrangHienTai * 2]==false)
                 {
                     
-                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(listDSBaiHoc[iTrangHienTai].IChuong, listDSBaiHoc[iTrangHienTai].IBai);
+                    UCTrangBaiTap trangBaiTap = new UCTrangBaiTap(_mpathSach, listDSBaiHoc[iTrangHienTai].IChuong, listDSBaiHoc[iTrangHienTai].IBai);
                     myBook.Items[iTrangHienTai * 2] = trangBaiTap;
                 }
                 // Nếu trang chưa được tạo thì tạo mới
