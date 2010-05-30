@@ -181,9 +181,8 @@ namespace ColorSwatch
             }
             if ((laHopLe == true) && (taoThanhCong == 0))
             {
-                labelThongBao.Foreground = Brushes.Green;
-                labelThongBao.Content = "Tài khoản của bạn đã được tạo thành công ";
-               
+                MessageBox.Show("Tài khoản đã được tạo thành công", "Chúc mừng", MessageBoxButton.OK, MessageBoxImage.Information);
+                FormNguoiDung.frameHienThi.Source = new Uri("DangNhap.xaml", UriKind.Relative);
             }
             else
             {
@@ -204,7 +203,7 @@ namespace ColorSwatch
 
         private void buttonHuyDangKy_Click(object sender, RoutedEventArgs e)
         {
-            this.Visibility = Visibility.Hidden;
+            FormNguoiDung.frameHienThi.Source = new Uri("DangNhap.xaml", UriKind.Relative);
         }
        
     }
