@@ -1,0 +1,11 @@
+﻿<Window x:Class="TracNghiem.DanhGia"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="" Height="325" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Image Source="DanhGia.png" Stretch="Fill"></Image>
+        <TextBlock Height="33" Margin="161,64,109,0" Name="txtSoDiem" Foreground="Orange" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="20"/>
+        <TextBlock Margin="164,123,106,128" Name="txtDanhGia" Foreground="Orange" FontFamily="Times New Roman" FontSize="20"/>
+        <Button Height="74" Margin="115,0,118,69" Name="btnThoat" VerticalAlignment="Bottom" Opacity="0" Click="bntThoat_Click"></Button>
+    </Grid>
+</Window>
