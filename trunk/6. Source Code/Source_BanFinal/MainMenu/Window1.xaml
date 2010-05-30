@@ -4,6 +4,7 @@ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 xml:lang="en-US"
 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" xmlns:ColorSwatch="clr-namespace:ColorSwatch"
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions" xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:im="clr-namespace:Microsoft.Expression.Interactivity.Media;assembly=Microsoft.Expression.Interactions"
 x:Class="ColorSwatch.Window1"
 x:Name="Color_Swatch"
 Title="Color Swatch"
@@ -107,16 +108,70 @@ FontSize="11"
   </Window.Triggers>
 
   <Grid x:Name="root">
+  	<VisualStateManager.CustomVisualStateManager>
+  		<ic:ExtendedVisualStateManager/>
+  	</VisualStateManager.CustomVisualStateManager>
+  	<VisualStateManager.VisualStateGroups>
+  		<VisualStateGroup x:Name="VisualStateGroup">
+  			<VisualState x:Name="Enter">
+  				<Storyboard>
+  					<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="image1" Storyboard.TargetProperty="(FrameworkElement.Width)">
+  						<SplineDoubleKeyFrame KeyTime="00:00:00" Value="90"/>
+  					</DoubleAnimationUsingKeyFrames>
+  					<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="image1" Storyboard.TargetProperty="(FrameworkElement.Height)">
+  						<SplineDoubleKeyFrame KeyTime="00:00:00" Value="60"/>
+  					</DoubleAnimationUsingKeyFrames>
+  					<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="image1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+  						<SplineDoubleKeyFrame KeyTime="00:00:00" Value="3"/>
+  					</DoubleAnimationUsingKeyFrames>
+  					<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="image1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+  						<SplineDoubleKeyFrame KeyTime="00:00:00" Value="3"/>
+  					</DoubleAnimationUsingKeyFrames>
+  					<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="textBlock" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+  						<SplineDoubleKeyFrame KeyTime="00:00:00" Value="-2"/>
+  					</DoubleAnimationUsingKeyFrames>
+  				</Storyboard>
+  			</VisualState>
+  			<VisualState x:Name="Leave">
+  				<Storyboard>
+  					<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="textBlock" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+  						<SplineDoubleKeyFrame KeyTime="00:00:00" Value="-1.362"/>
+  					</DoubleAnimationUsingKeyFrames>
+  				</Storyboard>
+  			</VisualState>
+  		</VisualStateGroup>
+  	</VisualStateManager.VisualStateGroups>
       <Grid Opacity="1" x:Name="header" Margin="30,30,30,0" VerticalAlignment="Top">
           <Rectangle Fill="#26FFFFFF" Stroke="{x:Null}" StrokeThickness="0.5" HorizontalAlignment="Stretch" Margin="0,45,0,0" VerticalAlignment="Bottom" Height="21" x:Name="menuBar"/>
-          <TextBlock Opacity="1" FontFamily="Segoe" FontSize="55" FontStretch="Normal" FontWeight="Light" TextWrapping="Wrap" Foreground="#FFFFFFFF" Margin="-2,-15.14,206,5.14"><Run FontSize="30" Foreground="#FF9C9FA3" Text="Xây dựng phần mềm"/><Run Text=" "/><Run FontWeight="Normal" Text="Học Tốt Toán 8"/><Run Text=" "/><Run FontSize="30" FontWeight="Normal" Foreground="#FF9C9FA3" Text="Nhóm 21 - 25"/></TextBlock>
-          <StackPanel HorizontalAlignment="Stretch" Margin="2,0,0,0" VerticalAlignment="Bottom" Height="21" Orientation="Horizontal" x:Name="stackMenu">
+          <TextBlock x:Name="textBlock" Opacity="1" FontFamily="Segoe" FontSize="55" FontStretch="Normal" FontWeight="Light" TextWrapping="Wrap" Foreground="#FFFFFFFF" Margin="143.999,-15.14,0.001,5.14" RenderTransformOrigin="0.5,0.5"><TextBlock.RenderTransform>
+          		<TransformGroup>
+          			<ScaleTransform/>
+          			<SkewTransform/>
+          			<RotateTransform/>
+          			<TranslateTransform/>
+          		</TransformGroup>
+          	</TextBlock.RenderTransform><Run FontFamily="Times New Roman" FontSize="30" FontStyle="Italic" Text="Xây dựng phần mềm">
+          		<Run.Foreground>
+          			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+          				<GradientStop Color="Black" Offset="0"/>
+          				<GradientStop Color="#FF6FAD27" Offset="1"/>
+          			</LinearGradientBrush>
+          		</Run.Foreground>
+          	</Run><Run FontFamily="Times New Roman" FontStyle="Italic" Text=" ">
+          		<Run.Foreground>
+          			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+          				<GradientStop Color="Black" Offset="0"/>
+          				<GradientStop Color="#FF6FAD27" Offset="1"/>
+          			</LinearGradientBrush>
+          		</Run.Foreground>
+          	</Run><Run FontFamily="Times New Roman" FontWeight="Bold" Foreground="#FF17BB29" Text="Học Tốt Toán 8 "/><Run FontSize="30" FontStyle="Italic" FontWeight="Normal" Foreground="#FF3A20AD" Text="Nhóm 21 - 25"/></TextBlock>
+          <StackPanel HorizontalAlignment="Stretch" Margin="2,0,0,2" VerticalAlignment="Bottom" Height="21" Orientation="Horizontal" x:Name="stackMenu">
             <!--<Button Style="{DynamicResource MenuButtonStyle}" Content="_Reset Image" Command="{Binding Path=ResetImage, ElementName=roomControl, Mode=Default}"/>-->
 <!--            <Button Style="{DynamicResource MenuButtonStyle}" Content="_Exit" Click="OnExit"/>
 -->       </StackPanel>
       </Grid>
-      <Grid x:Name="gridGiaoDienChinh"/>
-      <Grid RenderTransformOrigin="0.5,0.5" x:Name="splashGrid" Opacity="0" d:LayoutOverrides="Width, Height" Margin="0,0,20,19">
+      <Grid x:Name="gridGiaoDienChinh" Margin="0,2,0,-2"/>
+      <Grid RenderTransformOrigin="0.5,0.5" x:Name="splashGrid" Opacity="0" d:LayoutOverrides="Width, Height" Margin="0,44,20,-25">
           <Grid.RenderTransform>
               <TransformGroup>
                   <ScaleTransform ScaleX="1" ScaleY="1"/>
@@ -125,7 +180,7 @@ FontSize="11"
                   <TranslateTransform X="0" Y="0"/>
               </TransformGroup>
           </Grid.RenderTransform>
-          <Image Visibility="Visible" x:Name="splash" Canvas.Left="288" Canvas.Top="72" Stretch="Fill" Opacity="1" RenderTransformOrigin="0.5,0.5" Margin="308,64,281,96" Source="assets\logo.png">
+          <Image Visibility="Visible" x:Name="splash" Stretch="Fill" Opacity="1" RenderTransformOrigin="0.5,0.5" Margin="308,64,281,96" Source="assets\logo.png">
               <Image.RenderTransform>
                   <TransformGroup>
                       <ScaleTransform ScaleX="1" ScaleY="1"/>
@@ -144,6 +199,27 @@ FontSize="11"
 <!--      <ColorSwatch:Room HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" x:Name="roomControl" Visibility="Visible"/>
 -->
       
-      <Image MouseLeftButtonDown="image1_MouseLeftButtonDown"  HorizontalAlignment="Right" Margin="0,0,22.5,16" x:Name="image1" Stretch="Fill" Width="65" Height="36" VerticalAlignment="Bottom" Source="/ColorSwatch;component/images/exit.jpg" />
+      <Image MouseLeftButtonDown="image1_MouseLeftButtonDown"  HorizontalAlignment="Right" Margin="0,0,22.5,11.292" x:Name="image1" Stretch="Fill" Width="82" Height="45.416" VerticalAlignment="Bottom" Source="/ColorSwatch;component/images/exit.jpg" OpacityMask="{x:Null}" RenderTransformOrigin="0.5,0.5" >
+      	<i:Interaction.Triggers>
+      		<i:EventTrigger EventName="MouseLeave">
+      			<ic:GoToStateAction StateName="Leave"/>
+      		</i:EventTrigger>
+      		<i:EventTrigger EventName="MouseEnter">
+      			<ic:GoToStateAction StateName="Enter"/>
+      			<im:PlaySoundAction Source="enter.mp3" Volume="0.2"/>
+      		</i:EventTrigger>
+      		<i:EventTrigger EventName="MouseLeftButtonDown">
+      			<im:PlaySoundAction Source="click.mp3" Volume="0.1"/>
+      		</i:EventTrigger>
+      	</i:Interaction.Triggers>
+      	<Image.RenderTransform>
+      		<TransformGroup>
+      			<ScaleTransform/>
+      			<SkewTransform/>
+      			<RotateTransform/>
+      			<TranslateTransform/>
+      		</TransformGroup>
+      	</Image.RenderTransform>
+      </Image>
   </Grid>
 </Window>
