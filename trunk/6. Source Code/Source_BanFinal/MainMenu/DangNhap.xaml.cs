@@ -20,10 +20,11 @@ namespace ColorSwatch
     /// </summary>
     public partial class DangNhap : Page
     {
+        static public NguoiDung_DTO NguoiDungHienThoi;
         public DangNhap()
-        {
-            
+        {            
             InitializeComponent();
+            NguoiDungHienThoi = new NguoiDung_DTO();
         }
        
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -56,7 +57,12 @@ namespace ColorSwatch
                 case 2:
                     {
                         MessageBox.Show("Dang Nhap Thanh Cong");
-                        this.Visibility = Visibility.Hidden;
+                        NguoiDungHienThoi = BUS.NguoiDung_BUS.LayThongTinCuaTaiKhoan(this.tbTen.Text);
+                        //FormNguoiDung.frameHienThi.Visibility = Visibility.Hidden;
+                        FormNguoiDung.frameHienThi.Source = null;
+                        Window1.frameGiaoDienChinh.Source = new Uri("Room.xaml", UriKind.Relative);
+                        Window1.lbXinChao.Content = "Hello, " + NguoiDungHienThoi.HoTen + " (^_^)";
+                        Window1.gridLoiChao.Visibility = Visibility.Visible;
                         break;
                     }
             }
@@ -78,6 +84,24 @@ namespace ColorSwatch
                 return -1;  // Sai Mat Khau
             }
             return 0;  // Tai Khoan Khong Ton Tai
+        }
+
+        private void Label_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.		
+            lbTaoTaiKhoanMoi.FontSize += 2;
+        }
+
+        private void lbTaoTaiKhoanMoi_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+            lbTaoTaiKhoanMoi.FontSize -= 2;
+        }
+
+        private void lbTaoTaiKhoanMoi_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+            FormNguoiDung.frameHienThi.Source = new Uri("DangKyTaiKhoan.xaml", UriKind.Relative);
         }
     }
 }

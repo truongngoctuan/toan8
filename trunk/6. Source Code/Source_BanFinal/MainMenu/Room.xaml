@@ -516,8 +516,8 @@
         <TextBlock Width="48" Height="16" Foreground="#B2FFFFFF" Text="Giải Trí" TextAlignment="Center" TextWrapping="Wrap" Canvas.Left="214" Canvas.Top="120"/>
         <TextBlock Width="48" Height="16" Foreground="#B2FFFFFF" Text="Đại Số" TextAlignment="Center" TextWrapping="Wrap" Canvas.Left="164" Canvas.Top="120"/>
         <TextBlock Width="62" Height="16" Foreground="#B2FFFFFF" Text="Hình Học" TextAlignment="Center" TextWrapping="Wrap" Canvas.Left="106" Canvas.Top="120"/>
-        <TextBlock HorizontalAlignment="Left" Width="67" Height="16" Canvas.Left="-4" Canvas.Top="120" Foreground="#B2FFFFFF" Text="Đăng Nhập" TextAlignment="Center" TextWrapping="Wrap"/>
-         <TextBlock Canvas.Left="52" Canvas.Top="121" Foreground="#B2FFFFFF" Height="16" Text="Đăng Ký" TextAlignment="Center" TextWrapping="Wrap" Width="67" />
+        
+         
           <ColorSwatch:Swatch Visibility="Collapsed" RenderTransformOrigin="0.495,0.485" Canvas.Left="-18.5" Canvas.Top="-57" Opacity="0" x:Name="Wall" DataContext="{Binding Mode=Default, Source={StaticResource XMLDataWall}, XPath=/swatches/swatch/color}" Focusable="True" TabIndex="1">
           <ColorSwatch:Swatch.RenderTransform>
             <TransformGroup>
@@ -558,9 +558,7 @@
             </TransformGroup>
           </ColorSwatch:Swatch.RenderTransform>
         </ColorSwatch:Swatch>
-          <Button Canvas.Left="10" Canvas.Top="55.5" Height="63.809" x:Name="button1" Width="40" MouseEnter="button1_MouseEnter" MouseLeave="button1_MouseLeave" Click="button1_Click">
-          <Image Source="images/globe.png"/>  
-          </Button>
+          
           <Button Canvas.Left="117" Canvas.Top="55.5" Height="63.809" x:Name="button3" Width="40" MouseEnter="button3_MouseEnter" MouseLeave="button3_MouseLeave" Click="button3_Click">
           <Image Source="Assets/hinhhoc.png"/>   
           </Button>
@@ -573,7 +571,7 @@
           <Button Canvas.Left="267" Canvas.Top="55.5" Height="63.809" x:Name="button5" Width="40" MouseEnter="button5_MouseEnter" MouseLeave="button5_MouseLeave" Click="button5_Click">
           <Image Source="images/help.png"/>    
           </Button><Label Canvas.Left="70" Canvas.Top="18" Height="33" x:Name="label1" Width="170" FontSize="15" Background="Transparent" BorderBrush="AliceBlue" Foreground="Blue" Content="Lựa chọn các chức năng"/>
-         <Button Canvas.Left="63" Canvas.Top="56" Height="64" x:Name="button6" Width="40" Click="button6_Click"><Image Source="images/globe.png" /></Button>
+         
         
       </Canvas>
         </Grid>

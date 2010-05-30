@@ -68,3 +68,38 @@ D:\TaiLieu\2009_2010_Semester2\XayDungPM\ThungChua\6. Source Code\Source_BanFina
 D:\TaiLieu\2009_2010_Semester2\XayDungPM\ThungChua\6. Source Code\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.csproj.GenerateResource.Cache
 D:\TaiLieu\2009_2010_Semester2\XayDungPM\ThungChua\6. Source Code\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.exe
 D:\TaiLieu\2009_2010_Semester2\XayDungPM\ThungChua\6. Source Code\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.pdb
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\bin\Debug\TracNghiem.exe
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\bin\Debug\TracNghiem.pdb
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\bin\Debug\WPFMitsuControls.dll
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCTuaBai.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaGiaSau.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaGiaTruoc.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaTruoc.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaSau.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCLoiNoiDau.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCMucLuc.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCNoiDung.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCThuNgo.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCTrangTrong.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\SachTracNghiem.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCTuaBai.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaGiaSau.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaGiaTruoc.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaTruoc.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCBiaSau.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCLoiNoiDau.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCMucLuc.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCNoiDung.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCThuNgo.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\UC\UCTrangTrong.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\App.g.cs
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem_MarkupCompile.cache
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem_MarkupCompile.lref
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\SachTracNghiem.baml
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.g.resources
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.Properties.Resources.resources
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.csproj.GenerateResource.Cache
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.exe
+C:\Users\Minh\Desktop\Source_BanFinal\TracNghiem\obj\Debug\TracNghiem.pdb

@@ -84,6 +84,9 @@
       <DependentUpon>DangNhap.xaml</DependentUpon>
     </Compile>
     <Compile Include="DelegateCommand.cs" />
+    <Compile Include="FormNguoiDung.xaml.cs">
+      <DependentUpon>FormNguoiDung.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HocDaiSo.xaml.cs">
       <DependentUpon>HocDaiSo.xaml</DependentUpon>
     </Compile>
@@ -129,6 +132,10 @@
     <Page Include="DangNhap.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormNguoiDung.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="HocDaiSo.xaml">
       <SubType>Designer</SubType>
