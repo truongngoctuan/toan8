@@ -1,0 +1,9 @@
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\bin\Debug\BUS.dll
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\bin\Debug\BUS.pdb
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\bin\Debug\DAO.dll
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\bin\Debug\DTO.dll
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\bin\Debug\DAO.pdb
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\bin\Debug\DTO.pdb
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\obj\Debug\BUS.dll
+D:\student\XDPM\6. Source Code\Source_BanFinal2\BUS\obj\Debug\BUS.pdb

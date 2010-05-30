@@ -1,0 +1,7 @@
+D:\student\XDPM\6. Source Code\Source_BanFinal2\DAO\bin\Debug\DAO.dll
+D:\student\XDPM\6. Source Code\Source_BanFinal2\DAO\bin\Debug\DAO.pdb
+D:\student\XDPM\6. Source Code\Source_BanFinal2\DAO\bin\Debug\DTO.dll
+D:\student\XDPM\6. Source Code\Source_BanFinal2\DAO\bin\Debug\DTO.pdb
+D:\student\XDPM\6. Source Code\Source_BanFinal2\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\student\XDPM\6. Source Code\Source_BanFinal2\DAO\obj\Debug\DAO.dll
+D:\student\XDPM\6. Source Code\Source_BanFinal2\DAO\obj\Debug\DAO.pdb
