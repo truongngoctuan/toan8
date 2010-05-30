@@ -3,57 +3,72 @@
   <BaiHoc Chuong="1" Bai="1" Name="Bài1:Tứ giác" Source="\BaiLyThuyet\HinhHoc\H8_C1_B1.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\1" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\1" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai01\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai01\Cau02"></SapXepChungMinh>
   </BaiHoc>
-
   <BaiHoc Chuong="1" Bai="2" Name="Bài2:Hình thang" Source="\BaiLyThuyet\HinhHoc\H8_C1_B2.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\2" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\2" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai02\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai02\Cau02"></SapXepChungMinh>
   </BaiHoc>
-
-
   <BaiHoc Chuong="1" Bai="3" Name="Bài3:Hình thang cân" Source="\BaiLyThuyet\HinhHoc\H8_C1_B3.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\3" Cau="1" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai03\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai03\Cau02"></SapXepChungMinh>
   </BaiHoc>
-
   <BaiHoc Chuong="1" Bai="4" Name="Bài4:Đường trung bình của tam giác, của hình thang" Source="\BaiLyThuyet\HinhHoc\H8_C1_B4.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\4" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\4" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai04\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai04\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="5" Name="Bài5:Dựng hình bằng thước và compa. Dựng hình thang" Source="\BaiLyThuyet\HinhHoc\H8_C1_B5.xps">
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="6" Name="Bài6:Trục đối xứng" Source="\BaiLyThuyet\HinhHoc\H8_C1_B6.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\6" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\6" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai06\Cau01"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="7" Name="Bài7:Hình bình hành" Source="\BaiLyThuyet\HinhHoc\H8_C1_B7.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\7" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\7" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai07\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai07\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="8" Name="Bài8:Đối xứng tâm" Source="\BaiLyThuyet\HinhHoc\H8_C1_B8.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\8" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\8" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai08\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai08\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="9" Name="Bài9:Hình chữ nhật" Source="\BaiLyThuyet\HinhHoc\H8_C1_B9.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\9" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\9" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai09\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai09\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="10" Name="Bài10:Đường thẳng song song với một đường thẳng cho trước" Source="\BaiLyThuyet\HinhHoc\H8_C1_B10.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\10" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\10" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai10\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai10\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="11" Name="Bài11:Hình thoi" Source="\BaiLyThuyet\HinhHoc\H8_C1_B11.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\11" Cau="1" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai11\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai11\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="1" Bai="12" Name="Bài12:Hình vuông" Source="\BaiLyThuyet\HinhHoc\H8_C1_B12.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\12" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong1\12" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai12\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong01\Bai12\Cau02"></SapXepChungMinh>
   </BaiHoc>
-
   <BaiHoc Chuong="2" Bai="1" Name="Bài1:Đa giác. Đa giác đều" Source="\BaiLyThuyet\HinhHoc\H8_C2_B1.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong2\1" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong2\1" Cau="2" />
   </BaiHoc>
-
   <BaiHoc Chuong="2" Bai="2" Name="Bài2:Diện tích hình chữ nhật" Source="\BaiLyThuyet\HinhHoc\H8_C2_B2.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong2\2" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong2\2" Cau="2" />
@@ -81,18 +96,23 @@
   <BaiHoc Chuong="3" Bai="1" Name="Bài1:Định lý talet trong tam giác" Source="\BaiLyThuyet\HinhHoc\H8_C3_B1.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\1" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\1" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai01\Cau01"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="2" Name="Bài2:Định lý đảo và hệ quả của định lý talet" Source="\BaiLyThuyet\HinhHoc\H8_C3_B2.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\2" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\2" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai02\Cau01"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="3" Name="Bài3:Tính chất đường phân giác của tam giác" Source="\BaiLyThuyet\HinhHoc\H8_C3_B3.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\3" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\3" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai03\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai03\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="4" Name="Bài4:Khái niệm hai tam giác đồng dạng" Source="\BaiLyThuyet\HinhHoc\H8_C3_B4.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\4" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\4" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai04\Cau01"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="5" Name="Bài5:Trường hợp đồng dạng thứ nhất" Source="\BaiLyThuyet\HinhHoc\H8_C3_B5.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\5" Cau="1" />
@@ -100,59 +120,48 @@
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="6" Name="Bài6:Trường hợp đồng dạng thứ hai" Source="\BaiLyThuyet\HinhHoc\H8_C3_B6.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\6" Cau="1" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai06\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai06\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="7" Name="Bài7:Trường hợp đồng dạng thứ ba" Source="\BaiLyThuyet\HinhHoc\H8_C3_B7.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\7" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\7" Cau="2" />
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai07\Cau01"></SapXepChungMinh>
+    <SapXepChungMinh Source="\BaiTapHinhHoc\Chuong03\Bai07\Cau02"></SapXepChungMinh>
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="8" Name="Bài8:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C3_B8.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\8" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong3\8" Cau="2" />
   </BaiHoc>
-
   <BaiHoc Chuong="3" Bai="9" Name="Bài9:Ứng dụng thực tế của tam giác đồng dạng" Source="\BaiLyThuyet\HinhHoc\H8_C3_B9.xps">
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="1" Name="Bài1:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B1.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\1" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\1" Cau="2" />
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="2" Name="Bài2:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B2.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\2" Cau="1" />
-
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="3" Name="Bài3:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B3.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\3" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\3" Cau="2" />
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="4" Name="Bài4:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B4.xps">
-
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="5" Name="Bài5:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B5.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\5" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\5" Cau="2" />
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="6" Name="Bài6:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B6.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\6" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\6" Cau="2" />
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="7" Name="Bài7:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B7.xps">
-
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="8" Name="Bài8:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B8.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\8" Cau="1" />
-
   </BaiHoc>
-
   <BaiHoc Chuong="4" Bai="9" Name="Bài9:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B9.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\9" Cau="1" />
-
   </BaiHoc>
 </DanhSachBaiHoc>

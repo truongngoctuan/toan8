@@ -72,6 +72,7 @@ namespace ColorSwatch
             if (cauHoi.Count() == 0)
             {
                 strCauHoi = "";
+                return;
             }
             strCauHoi = cauHoi.ElementAt(0);
         }
@@ -100,7 +101,8 @@ namespace ColorSwatch
             }
             else
             {
-                Temp = "BaiTapHinhHoc\\Chuong";
+                Temp = "\\BaiTapHinhHoc\\Chuong";
+                path = "DeSapXepChungMinh" + filename.Remove(Temp.Length + 2);
             }
             string strChuong = filename.Remove(0, Temp.Length).Remove(2, "\\Bai01\\Cau01".Length);
             string strBai = filename.Remove(0, (Temp + "01\\Bai").Length).Remove(2, "\\Cau01".Length);
