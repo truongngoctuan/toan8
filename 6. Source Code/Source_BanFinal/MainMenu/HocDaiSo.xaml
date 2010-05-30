@@ -32,7 +32,7 @@
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-                <TextBlock Width="93" HorizontalAlignment="Left" Margin="85,4,0,5">Chọn bài học</TextBlock>
+                <TextBlock Width="93" HorizontalAlignment="Left" Margin="85,4,0,5" FontFamily="Times New Roman" FontSize="16" FontStyle="Italic" Foreground="#FF261DDE">Chọn bài học</TextBlock>
                 <ComboBox x:Name="cbDanhSachBai" HorizontalAlignment="Left" FontSize="14" Width="300" Margin="192.5,1,0,4"></ComboBox>
                 <controls:Book x:Name="myBook" Grid.Row="1" Width="1230" Height="700" Margin="25">
                     <controls:Book.ItemTemplate>
