@@ -5,6 +5,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.IO;
 using System.Xml;
+using DTO;
 namespace DAO
 {
     public class NguoiDung_DAO
@@ -75,6 +76,22 @@ namespace DAO
             }
             catch { }
             return ketQua;
+        }
+        public static NguoiDung_DTO LayThongTinTaiKhoan(string tenDangNhap, string duongDanThuMucChuaTaiKhoan)
+        {
+            string duongDanFileXML = duongDanThuMucChuaTaiKhoan + @"/" + tenDangNhap + @"/ThongTinNguoiDung.xml";
+            XDocument xdoc = XDocument.Load(duongDanFileXML);
+            return (from c in xdoc.Descendants("ThongTinNguoiDung")
+                    select new NguoiDung_DTO()
+                    {
+                        UserName = c.Element("TenDangNhap").Value,
+                        Password = c.Element("MatKhau").Value,
+                        HoTen = c.Element("HoTen").Value,
+                        Truong = c.Element("Truong").Value,
+                        Lop = c.Element("Lop").Value,
+                        Email = c.Element("Email").Value,
+                        LoaiNguoiDung = int.Parse(c.Element("LoaiNguoiDung").Value)
+                    }).FirstOrDefault();
         }
     }
 }

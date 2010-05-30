@@ -91,5 +91,24 @@ namespace BUS
             ketQua = DAO.NguoiDung_DAO.LayMatKhauCuaTaiKhoan(tenDangNhap, duongDanThuMucChuaTaiKhoan);
             return ketQua;
         }
+        public static NguoiDung_DTO LayThongTinCuaTaiKhoan(string tenDangNhap)
+        {
+            NguoiDung_DTO ketQua = new NguoiDung_DTO();
+            string duongDanThuMucChuaTaiKhoan = string.Empty;
+            int loaiTaiKhoan = KiemTraUserNameCoTonTaiChua(tenDangNhap);
+            switch (loaiTaiKhoan)
+            {
+                case 1:
+                    duongDanThuMucChuaTaiKhoan = DTO.NguoiDung_DTO.DuongDanThuMucTeacherAccount;
+                    break;
+                case 2:
+                    duongDanThuMucChuaTaiKhoan = DTO.NguoiDung_DTO.DuongDanThuMucPupilAccount;
+                    break;
+                default:
+                    return ketQua;
+            }
+            ketQua = DAO.NguoiDung_DAO.LayThongTinTaiKhoan(tenDangNhap, duongDanThuMucChuaTaiKhoan);
+            return ketQua;
+        }
     }
 }

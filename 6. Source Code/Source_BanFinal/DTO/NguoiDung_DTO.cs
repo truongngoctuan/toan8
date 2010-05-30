@@ -25,18 +25,11 @@ namespace DTO
             set { m_Password = value; }
         }
 
-        private string m_Ten;
-        public string Ten
+        private string m_HoTen;
+        public string HoTen
         {
-            get { return m_Ten; }
-            set { m_Ten = value; }
-        }
-
-        private string m_Ho;
-        public string Ho
-        {
-            get { return m_Ho; }
-            set { m_Ho = value; }
+            get { return m_HoTen; }
+            set { m_HoTen = value; }
         }
 
         private string m_Email;
@@ -46,13 +39,36 @@ namespace DTO
             set { m_Email = value; }
         }
 
+        private string m_Truong;
+        public string Truong
+        {
+            get { return m_Truong; }
+            set { m_Truong = value; }
+        }
+
+        private string m_Lop;
+        public string Lop
+        {
+            get { return m_Lop; }
+            set { m_Lop = value; }
+        }
+
+        private int m_LoaiNguoiDung;
+        public int LoaiNguoiDung
+        {
+            get { return m_LoaiNguoiDung; }
+            set { m_LoaiNguoiDung = value; }
+        }
+
         public NguoiDung_DTO()
         {            
             m_UserName = string.Empty;
             m_Password = string.Empty;
-            m_Ten = string.Empty;
-            m_Ho = string.Empty;
+            m_HoTen = string.Empty;
+            m_Truong = string.Empty;
+            m_Lop = string.Empty;
             m_Email = string.Empty;
+            m_LoaiNguoiDung = 1;
         }
     }
 }
