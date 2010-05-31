@@ -279,11 +279,6 @@
     <Resource Include="images\login.JPG" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SachDaiSo\2.xps">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="books_256.png" />
     <Resource Include="DaiSo.png" />
     <Resource Include="h6 copy.jpg" />
@@ -303,15 +298,6 @@
     </Content>
     <Content Include="enter.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SachDaiSo\1.xps">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SachDaiSo\3.xps">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SachDaiSo\4.xps">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 </Project>
