@@ -1,5 +1,0 @@
-D:\student\XDPM\6. Source Code\Source_BanFinal2\DTO\bin\Debug\DTO.dll
-D:\student\XDPM\6. Source Code\Source_BanFinal2\DTO\bin\Debug\DTO.pdb
-D:\student\XDPM\6. Source Code\Source_BanFinal2\DTO\obj\Debug\ResolveAssemblyReference.cache
-D:\student\XDPM\6. Source Code\Source_BanFinal2\DTO\obj\Debug\DTO.dll
-D:\student\XDPM\6. Source Code\Source_BanFinal2\DTO\obj\Debug\DTO.pdb
