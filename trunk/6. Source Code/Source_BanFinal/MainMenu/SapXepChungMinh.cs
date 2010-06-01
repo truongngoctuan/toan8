@@ -121,14 +121,14 @@ namespace ColorSwatch
                 img.HorizontalAlignment = HorizontalAlignment.Left;
                 img.VerticalAlignment = VerticalAlignment.Top;
 
-                BitmapSource bs = new BitmapImage(new Uri("..\\..\\images\\DoiCho.png", UriKind.RelativeOrAbsolute));
+                BitmapSource bs = new BitmapImage(new Uri("images/DoiCho.png", UriKind.Relative));
                 img.Source = bs;
                 int top = lstDapAn.Count() * 40;
                 btHoanDoi.Margin = new Thickness(400, -top, 0, 0);
                 btHoanDoi.Width = 32;
                 btHoanDoi.Height = 70;
-                img.Width = bs.Width;
-                img.Height = bs.Height;
+                //img.Width = bs.Width;
+                //img.Height = bs.Height;
                 btHoanDoi.Content = img;
                 btHoanDoi.Click += new RoutedEventHandler(btHoanDoi_Click);
 
