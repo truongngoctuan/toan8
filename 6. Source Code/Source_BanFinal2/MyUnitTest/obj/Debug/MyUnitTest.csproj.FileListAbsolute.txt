@@ -1,8 +1,0 @@
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\bin\Debug\MyUnitTest.dll.config
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\bin\Debug\MyUnitTest.dll
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\bin\Debug\MyUnitTest.pdb
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\bin\Debug\nunit.framework.dll
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\bin\Debug\nunit.framework.xml
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\obj\Debug\ResolveAssemblyReference.cache
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\obj\Debug\MyUnitTest.dll
-D:\student\XDPM\6. Source Code\Source_BanFinal2\MyUnitTest\obj\Debug\MyUnitTest.pdb

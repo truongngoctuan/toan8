@@ -1,9 +1,0 @@
-﻿<UserControl Loaded="UCTrangLyThuyet_Loaded"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:System_Windows_Documents="clr-namespace:System.Windows.Documents;assembly=PresentationUI"
-             x:Class="ColorSwatch.UCTrangLyThuyet"
-    >
-    <Grid >
-        <DocumentViewer x:Name="xpsViewer"  />
-    </Grid>
-</UserControl>

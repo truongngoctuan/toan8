@@ -1,9 +1,0 @@
-﻿<Window x:Class="ColorSwatch.ManHinh.HinhHoc"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="HinhHoc" WindowState="Maximized" WindowStyle="None" Height="228" Topmost="True">
-    <Grid>
-        <Label Margin="20,25,21,8" Name="label1" FontSize="50">Hinh hoc</Label>
-        <Button Height="23" HorizontalAlignment="Left" Margin="43,0,0,44" Name="button1" VerticalAlignment="Bottom" Width="75" Click="button1_Click">Trở Về</Button>
-    </Grid>
-</Window>
