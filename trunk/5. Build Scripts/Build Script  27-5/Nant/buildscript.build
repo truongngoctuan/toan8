@@ -6,7 +6,7 @@
 	<property name="base.dir" value="${directory::get-current-directory()}" />
 	<property name="log.dir" value=".\project.hoc.toan.lop.8.log" />
 	<property name="from.gmail" value="ittrandainghia@gmail.com" />
-	<property name="from.gmail.password" value="conyeubame" />
+	<property name="from.gmail.password" value="" />
 	<property name="to.list.mail" value="dainghia0099@yahoo.com.vn,trandainghia07us@gmail.com" />
 	<property name="subject" value="build project" />
 	<property name="message" value="build logs" />
