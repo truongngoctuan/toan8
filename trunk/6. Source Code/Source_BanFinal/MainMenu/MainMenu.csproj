@@ -2,11 +2,11 @@
   <PropertyGroup>
     <Configuration Condition="'$(Configuration)'==''">Debug</Configuration>
     <DefaultClrNameSpace>ColorSwatch</DefaultClrNameSpace>
-    <AssemblyName>ColorSwatch</AssemblyName>
+    <AssemblyName>HocTotToan8</AssemblyName>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ColorSwatch</RootNamespace>
+    <RootNamespace>HocTotToan8</RootNamespace>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ProjectGuid>{07C794C6-6B3F-4C82-B7F7-8F30D2FCDA10}</ProjectGuid>
     <Win32Resource>Resources.res</Win32Resource>
@@ -17,6 +17,8 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -29,10 +31,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <CodeAnalysisRules>
@@ -184,10 +184,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Resource Include="Assets\blend.png" />
-    <Resource Include="Assets\mask.png" />
-    <Resource Include="Assets\splash.png" />
-    <Resource Include="Assets\tree.png" />
     <Resource Include="Data\colors_bathtub.xml" />
     <Resource Include="Data\colors_floor.xml" />
     <Resource Include="Data\colors_frame.xml" />
@@ -195,9 +191,11 @@
     <Resource Include="Data\colors_walls.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Funny 3D Animals Wallpapers 19.jpg" />
-  </ItemGroup>
-  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
       <Visible>False</Visible>
       <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
@@ -213,28 +211,16 @@
       <ProductName>.NET Framework 3.5</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
       <Visible>False</Visible>
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\Mac_OS_X_002009.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\hinhhoc_nen.png" />
-    <Resource Include="Assets\daiso.png" />
-    <Resource Include="Assets\Games.png" />
-    <Resource Include="Assets\Globe.png" />
-    <Resource Include="Assets\Help.png" />
-    <Resource Include="Assets\hinhhoc.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\tacke.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BUS\BUS.csproj">
@@ -245,52 +231,48 @@
       <Project>{7BEBC4D5-3641-46A1-A71E-CF68EB1233EB}</Project>
       <Name>DTO</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TracNghiem\TracNghiem.csproj">
-      <Project>{942A28C5-8CAE-4B50-9FE3-73082D1073B5}</Project>
-      <Name>TracNghiem</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WPFMitsuControls\WPFMitsuControls.csproj">
       <Project>{DBC99C0E-F918-4E3B-B154-C03E212D8ACA}</Project>
       <Name>WPFMitsuControls</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\roundcornersheet.png" />
-    <Resource Include="images\Star.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\6EntertainmentVector.png" />
-    <Resource Include="images\hinhhoc_nen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\trogiup.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\Globe.png" />
-    <Resource Include="images\Help.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\Games.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\exit.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\login.JPG" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Assets\blend.png" />
+    <Resource Include="Assets\daiso.png" />
+    <Resource Include="Assets\Funny 3D Animals Wallpapers 19.jpg" />
+    <Resource Include="Assets\Games.png" />
+    <Resource Include="Assets\Globe.png" />
+    <Resource Include="Assets\Help.png" />
+    <Resource Include="Assets\hinhhoc.png" />
+    <Resource Include="Assets\hinhhoc_nen.png" />
+    <Resource Include="Assets\logo.png" />
+    <Resource Include="Assets\Mac_OS_X_002009.jpg" />
+    <Resource Include="Assets\mask.png" />
+    <Resource Include="Assets\splash.png" />
+    <Resource Include="Assets\tacke.png" />
+    <Resource Include="Assets\tree.png" />
     <Resource Include="books_256.png" />
     <Resource Include="DaiSo.png" />
     <Resource Include="h6 copy.jpg" />
     <Resource Include="hình học.png" />
-    <Resource Include="images\daiso_nen.png" />
     <Content Include="BaiTapDaiSo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="BaiTapHinhHoc.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="images\6EntertainmentVector.png" />
+    <Resource Include="images\daiso_nen.png" />
     <Resource Include="images\DoiCho.png" />
+    <Resource Include="images\exit.jpg" />
+    <Resource Include="images\Games.png" />
+    <Resource Include="images\Globe.png" />
+    <Resource Include="images\Help.png" />
+    <Resource Include="images\hinhhoc_nen.png" />
+    <Resource Include="images\login.JPG" />
+    <Resource Include="images\roundcornersheet.png" />
+    <Resource Include="images\Star.png" />
+    <Resource Include="images\trogiup.jpg" />
     <Resource Include="shutterstock_18775234.jpg" />
     <Resource Include="TroGiup.png" />
     <Content Include="click.mp3">
