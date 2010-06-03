@@ -199,7 +199,7 @@ FontSize="11"
 <!--      <ColorSwatch:Room HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" x:Name="roomControl" Visibility="Visible"/>
 -->
       
-      <Image MouseLeftButtonDown="image1_MouseLeftButtonDown"  HorizontalAlignment="Right" Margin="0,0,22.5,11.292" x:Name="image1" Stretch="Fill" Width="82" Height="45.416" VerticalAlignment="Bottom" Source="/ColorSwatch;component/images/exit.jpg" OpacityMask="{x:Null}" RenderTransformOrigin="0.5,0.5" >
+      <Image MouseLeftButtonDown="image1_MouseLeftButtonDown"  HorizontalAlignment="Right" Margin="0,0,22.5,11.292" x:Name="image1" Stretch="Fill" Width="82" Height="45.416" VerticalAlignment="Bottom" Source="/images/exit.jpg" OpacityMask="{x:Null}" RenderTransformOrigin="0.5,0.5" >
       	<i:Interaction.Triggers>
       		<i:EventTrigger EventName="MouseLeave">
       			<ic:GoToStateAction StateName="Leave"/>
