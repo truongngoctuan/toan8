@@ -17,8 +17,8 @@ namespace ColorSwatch
 {
     public class TracNghiem : StackPanel
     {
-        List<ListBoxItem> m_DanhSachCau;
-        List<bool> m_DanhSachDapAn;
+        internal List<ListBoxItem> m_Cau;
+        internal List<bool> m_DanhSachDapAn;
 
         static TracNghiem()
         {
@@ -27,7 +27,7 @@ namespace ColorSwatch
 
         public void LayCauHoi(string folder, string soThutu, int verticalTab, int horizontalTab)
         {
-            m_DanhSachCau = new List<ListBoxItem>();
+            m_Cau = new List<ListBoxItem>();
             List<string> files = new List<string>();
             
             //Lấy đề theo số thứ tự:
@@ -59,7 +59,7 @@ namespace ColorSwatch
                 image.Width = bitmapSource.Width;
                 image.Height = bitmapSource.Height;
                 stackPanel.Children.Add(image);
-                m_DanhSachCau.Add(listboxItem);
+                m_Cau.Add(listboxItem);
                 
                 //Đếm số phần tử có giá trị bằng True trong danh sách đáp án:
                 int soDapan = m_DanhSachDapAn.FindAll(
@@ -105,14 +105,14 @@ namespace ColorSwatch
                     imagePhuongan.Height = bitmapSourcephuongan.Height;
                     stackPanelphuongan.Children.Add(imagePhuongan);
                     listboxItemphuongan.Content = stackPanelphuongan;
-                    m_DanhSachCau.Add(listboxItemphuongan);
+                    m_Cau.Add(listboxItemphuongan);
                 }
             }
 
             Orientation = Orientation.Vertical;
-            for (int i = 0; i < m_DanhSachCau.Count; ++i)
+            for (int i = 0; i < m_Cau.Count; ++i)
             {
-                Children.Add(m_DanhSachCau[i]);
+                Children.Add(m_Cau[i]);
             }
         }
 
@@ -126,9 +126,9 @@ namespace ColorSwatch
                                                        }
                                                  ).Count;
             bool giaiSai = false;
-            for (int i = 0; i < m_DanhSachCau.Count -1 ; ++i)
+            for (int i = 0; i < m_Cau.Count -1 ; ++i)
             {
-                ListBoxItem listboxItem = m_DanhSachCau[i + 1];
+                ListBoxItem listboxItem = m_Cau[i + 1];
                 StackPanel stackPanel = (StackPanel)listboxItem.Content;
                 Canvas canvas = new Canvas();
                 canvas = (Canvas)stackPanel.Children[0];
