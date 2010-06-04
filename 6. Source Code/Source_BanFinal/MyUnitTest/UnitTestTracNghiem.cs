@@ -12,7 +12,7 @@ namespace MyUnitTest
     public class UnitTestTracNghiem
     {
         [Test]
-        public void TesLayCauHoi()
+        public void TestLayCauHoi()
         {
             TracNghiem tracNghiem = new TracNghiem();
             //Kiểm tra lấy câu hỏi có số thứ tự 1 ở chương 1 của bài tập đại số:
