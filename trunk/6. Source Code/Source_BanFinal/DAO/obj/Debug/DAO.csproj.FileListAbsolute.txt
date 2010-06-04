@@ -1,7 +1,0 @@
-D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DAO\bin\Debug\DAO.dll
-D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DAO\bin\Debug\DAO.pdb
-D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DAO\bin\Debug\DTO.dll
-D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DAO\bin\Debug\DTO.pdb
-D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DAO\obj\Debug\ResolveAssemblyReference.cache
-D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DAO\obj\Debug\DAO.dll
-D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DAO\obj\Debug\DAO.pdb
