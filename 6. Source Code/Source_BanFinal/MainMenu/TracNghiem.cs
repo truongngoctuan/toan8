@@ -15,179 +15,168 @@ using System.IO;
 
 namespace ColorSwatch
 {
-    /// <summary>
-    /// Follow steps 1a or 1b and then 2 to use this custom control in a XAML file.
-    ///
-    /// Step 1a) Using this custom control in a XAML file that exists in the current project.
-    /// Add this XmlNamespace attribute to the root element of the markup file where it is 
-    /// to be used:
-    ///
-    ///     xmlns:MyNamespace="clr-namespace:ControlTracNghiem"
-    ///
-    ///
-    /// Step 1b) Using this custom control in a XAML file that exists in a different project.
-    /// Add this XmlNamespace attribute to the root element of the markup file where it is 
-    /// to be used:
-    ///
-    ///     xmlns:MyNamespace="clr-namespace:ControlTracNghiem;assembly=ControlTracNghiem"
-    ///
-    /// You will also need to add a project reference from the project where the XAML file lives
-    /// to this project and Rebuild to avoid compilation errors:
-    ///
-    ///     Right click on the target project in the Solution Explorer and
-    ///     "Add Reference"->"Projects"->[Select this project]
-    ///
-    ///
-    /// Step 2)
-    /// Go ahead and use your control in the XAML file.
-    ///
-    ///     <MyNamespace:CustomControl1/>
-    ///
-    /// </summary>
     public class TracNghiem : StackPanel
     {
-        List<ListBoxItem> Cau;
-        List<bool> DapAn;
+        List<ListBoxItem> m_DanhSachCau;
+        List<bool> m_DanhSachDapAn;
 
         static TracNghiem()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(TracNghiem), new FrameworkPropertyMetadata(typeof(TracNghiem)));
         }
 
-        public void LayCauHoi(string folder, string stt, int htab, int wtab)
+        public void LayCauHoi(string folder, string soThutu, int verticalTab, int horizontalTab)
         {
-            Cau = new List<ListBoxItem>();
-            //List<string> files = new List<string>(Directory.GetFiles(folder, stt + "_*.png"));
+            m_DanhSachCau = new List<ListBoxItem>();
             List<string> files = new List<string>();
-            files.Add(folder + "\\" + stt + ".png");
-            files.AddRange(Directory.GetFiles(folder, stt + "_*.png"));
+            
+            //Lấy đề theo số thứ tự:
+            files.Add(folder + "\\" + soThutu + ".png");
+            //Lấy danh sách phương án chọn lựa theo số thứ tự:
+            files.AddRange(Directory.GetFiles(folder, soThutu + "_*.png"));
+            //Sắp xếp các phương án đúng theo thứ tự:
             files.Sort();
-            string filedapan = folder + "\\" + stt + ".txt";
-            DapAn = new List<bool>();
-            StreamReader sr = new StreamReader(filedapan);
-            while (!sr.EndOfStream)
+            //Lấy đáp án của câu:
+            string fileDapan = folder + "\\" + soThutu + ".txt";
+            m_DanhSachDapAn = new List<bool>();
+            StreamReader streamReader = new StreamReader(fileDapan);
+            while (!streamReader.EndOfStream)
             {
-                DapAn.Add(bool.Parse(sr.ReadLine().Trim().ToLower()));
+                m_DanhSachDapAn.Add(bool.Parse(streamReader.ReadLine().Trim().ToLower()));
             }
-            sr.Close();
+            streamReader.Close();
             //Phần đáp án dư đáp án đầu:
-            DapAn.RemoveAt(0);
+            m_DanhSachDapAn.RemoveAt(0);
+
             if (files.Count > 1)
             {
-                ListBoxItem lbi = new ListBoxItem();
-                StackPanel sp = new StackPanel();
-                lbi.Content = sp;
-                Image img = new Image();
-                BitmapSource bs = new BitmapImage(new Uri(files[0]));
-                img.Source = bs;
-                img.Width = bs.Width;
-                img.Height = bs.Height;
-                sp.Children.Add(img);
-                Cau.Add(lbi);
-                int nDapAn = DapAn.FindAll(delegate(bool b1) { return b1; }).Count;
+                ListBoxItem listboxItem = new ListBoxItem();
+                StackPanel stackPanel = new StackPanel();
+                listboxItem.Content = stackPanel;
+                Image image = new Image();
+                BitmapSource bitmapSource = new BitmapImage(new Uri(files[0]));
+                image.Source = bitmapSource;
+                image.Width = bitmapSource.Width;
+                image.Height = bitmapSource.Height;
+                stackPanel.Children.Add(image);
+                m_DanhSachCau.Add(listboxItem);
+                
+                //Đếm số phần tử có giá trị bằng True trong danh sách đáp án:
+                int soDapan = m_DanhSachDapAn.FindAll(
+                                                        delegate(bool cauDung) 
+                                                        { 
+                                                            return cauDung; 
+                                                        }
+                                                     ).Count;
+
                 for (int i = 1; i < files.Count; ++i)
                 {
-                    ListBoxItem lbiPhuongAn = new ListBoxItem();
-                    StackPanel spPhuongAn = new StackPanel();
-                    spPhuongAn.Orientation = Orientation.Horizontal;
-                    Canvas cv = new Canvas();
-                    if (nDapAn == 1)
+                    ListBoxItem listboxItemphuongan = new ListBoxItem();
+                    StackPanel stackPanelphuongan = new StackPanel();
+                    stackPanelphuongan.Orientation = Orientation.Horizontal;
+                    Canvas canvas = new Canvas();
+                    if (soDapan == 1)
                     {
-                        RadioButton rd = new RadioButton();
-                        rd.GroupName = files[0].Replace("\\", "").Replace(".", "").Replace(":", "");
-                        rd.Width = 25;
-                        rd.Height = 25;
-                        rd.Margin = new Thickness(wtab, htab, 0, 0);
-                        cv.Width = rd.Width + wtab;
-                        cv.Height = rd.Height + htab;
-                        cv.Children.Add(rd);
+                        RadioButton radioButton = new RadioButton();
+                        radioButton.GroupName = files[0].Replace("\\", "").Replace(".", "").Replace(":", "");
+                        radioButton.Width = 25;
+                        radioButton.Height = 25;
+                        radioButton.Margin = new Thickness(horizontalTab, verticalTab, 0, 0);
+                        canvas.Width = radioButton.Width + horizontalTab;
+                        canvas.Height = radioButton.Height + verticalTab;
+                        canvas.Children.Add(radioButton);
                     }
                     else
                     {
-                        CheckBox cb = new CheckBox();
-                        cb.Width = 25;
-                        cb.Height = 25;
-                        cb.Margin = new Thickness(wtab, htab, 0, 0);
-                        cv.Width = cb.Width + wtab;
-                        cv.Height = cb.Height + htab;
-                        cv.Children.Add(cb);
+                        CheckBox checkBox = new CheckBox();
+                        checkBox.Width = 25;
+                        checkBox.Height = 25;
+                        checkBox.Margin = new Thickness(horizontalTab, verticalTab, 0, 0);
+                        canvas.Width = checkBox.Width + horizontalTab;
+                        canvas.Height = checkBox.Height + verticalTab;
+                        canvas.Children.Add(checkBox);
                     }
-                    cv.Arrange(new Rect(0, 0, cv.Width, cv.Height));
-                    spPhuongAn.Children.Add(cv);
-                    Image imgPhuongan = new Image();
-                    BitmapSource bsPhuongAn = new BitmapImage(new Uri(files[i]));
-                    imgPhuongan.Source = bsPhuongAn;
-                    imgPhuongan.Width = bsPhuongAn.Width;
-                    imgPhuongan.Height = bsPhuongAn.Height;
-                    spPhuongAn.Children.Add(imgPhuongan);
-                    lbiPhuongAn.Content = spPhuongAn;
-                    Cau.Add(lbiPhuongAn);
+                    canvas.Arrange(new Rect(0, 0, canvas.Width, canvas.Height));
+                    stackPanelphuongan.Children.Add(canvas);
+                    Image imagePhuongan = new Image();
+                    BitmapSource bitmapSourcephuongan = new BitmapImage(new Uri(files[i]));
+                    imagePhuongan.Source = bitmapSourcephuongan;
+                    imagePhuongan.Width = bitmapSourcephuongan.Width;
+                    imagePhuongan.Height = bitmapSourcephuongan.Height;
+                    stackPanelphuongan.Children.Add(imagePhuongan);
+                    listboxItemphuongan.Content = stackPanelphuongan;
+                    m_DanhSachCau.Add(listboxItemphuongan);
                 }
             }
 
             Orientation = Orientation.Vertical;
-            for (int i = 0; i < Cau.Count; ++i)
+            for (int i = 0; i < m_DanhSachCau.Count; ++i)
             {
-                Children.Add(Cau[i]);
+                Children.Add(m_DanhSachCau[i]);
             }
         }
 
         public double ChamDiem(double diem)
         {
-            int nDapAn = DapAn.FindAll(delegate(bool b1) { return b1; }).Count ;
-            bool sai = false;
-            for (int i = 0; i < Cau.Count -1 ; ++i)
+            //Đếm số phần tử có giá trị bằng True trong danh sách đáp án:
+            int soDapan = m_DanhSachDapAn.FindAll(
+                                                       delegate(bool cauDung) 
+                                                       { 
+                                                           return cauDung; 
+                                                       }
+                                                 ).Count;
+            bool giaiSai = false;
+            for (int i = 0; i < m_DanhSachCau.Count -1 ; ++i)
             {
-                ListBoxItem lbi = Cau[i + 1];
-                StackPanel sp = (StackPanel)lbi.Content;
-                Canvas cv = new Canvas();
-                cv = (Canvas)sp.Children[0];
-                if (nDapAn == 1)
+                ListBoxItem listboxItem = m_DanhSachCau[i + 1];
+                StackPanel stackPanel = (StackPanel)listboxItem.Content;
+                Canvas canvas = new Canvas();
+                canvas = (Canvas)stackPanel.Children[0];
+                if (soDapan == 1)
                 {
-                    RadioButton rd = (RadioButton)cv.Children[0];
-                    if (rd.IsChecked == true && DapAn[i])
+                    RadioButton radioButton = (RadioButton)canvas.Children[0];
+                    if (radioButton.IsChecked == true && m_DanhSachDapAn[i])
                     {
                         
                     }
-                    else if (rd.IsChecked == true && DapAn[i] == false)
+                    else if (radioButton.IsChecked == true && m_DanhSachDapAn[i] == false)
                     {
-                        rd.Background = Brushes.Red;
-                        rd.IsChecked = false;
-                        sai = true;
+                        radioButton.Background = Brushes.Red;
+                        radioButton.IsChecked = false;
+                        giaiSai = true;
                     }
-                    else if (rd.IsChecked == false && DapAn[i] == true)
+                    else if (radioButton.IsChecked == false && m_DanhSachDapAn[i] == true)
                     {
-                        rd.Background = Brushes.Blue;
-                        rd.IsChecked = true;
-                        sai = true;
+                        radioButton.Background = Brushes.Blue;
+                        radioButton.IsChecked = true;
+                        giaiSai = true;
                     }
                 }
                 else
                 {
-                    CheckBox cb = (CheckBox)cv.Children[0];
-                    if (cb.IsChecked == true && DapAn[i])
+                    CheckBox checkBox = (CheckBox)canvas.Children[0];
+                    if (checkBox.IsChecked == true && m_DanhSachDapAn[i])
                     {
                         
                     }
-                    else if (cb.IsChecked == true && DapAn[i] == false)
+                    else if (checkBox.IsChecked == true && m_DanhSachDapAn[i] == false)
                     {
-                        cb.Background = Brushes.Red;
-                        cb.IsChecked = false;
-                        sai = true;
+                        checkBox.Background = Brushes.Red;
+                        checkBox.IsChecked = false;
+                        giaiSai = true;
                     }
-                    else if (cb.IsChecked == false && DapAn[i] == true)
+                    else if (checkBox.IsChecked == false && m_DanhSachDapAn[i] == true)
                     {
-                        cb.Background = Brushes.Blue;
-                        cb.IsChecked = true;
-                        sai = true;
+                        checkBox.Background = Brushes.Blue;
+                        checkBox.IsChecked = true;
+                        giaiSai = true;
                     }
                 }
             }
-            if (sai)
+            if (giaiSai)
             {
                 return 0;
             }
-
             return diem;
         }
     }
