@@ -57,9 +57,16 @@
   <ItemGroup>
     <Compile Include="UnitTestSapXepChungMinh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTestTracNghiem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainMenu\MainMenu.csproj">
+      <Project>{07C794C6-6B3F-4C82-B7F7-8F30D2FCDA10}</Project>
+      <Name>MainMenu</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
