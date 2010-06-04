@@ -255,6 +255,9 @@
     <Resource Include="DaiSo.png" />
     <Resource Include="h6 copy.jpg" />
     <Resource Include="hình học.png" />
+    <Content Include="Account\PupilUserAccount\Group21-25\ThongTinNguoiDung.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="BaiTapDaiSo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
