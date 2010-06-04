@@ -135,33 +135,33 @@
   </BaiHoc>
   <BaiHoc Chuong="3" Bai="9" Name="Bài9:Ứng dụng thực tế của tam giác đồng dạng" Source="\BaiLyThuyet\HinhHoc\H8_C3_B9.xps">
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="1" Name="Bài1:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B1.xps">
+  <BaiHoc Chuong="4" Bai="1" Name="Bài1:Hình hộp chữ nhật" Source="\BaiLyThuyet\HinhHoc\H8_C4_B1.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\1" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\1" Cau="2" />
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="2" Name="Bài2:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B2.xps">
+  <BaiHoc Chuong="4" Bai="2" Name="Bài2:Hình hộp chữ nhật (tiếp)" Source="\BaiLyThuyet\HinhHoc\H8_C4_B2.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\2" Cau="1" />
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="3" Name="Bài3:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B3.xps">
+  <BaiHoc Chuong="4" Bai="3" Name="Bài3:Thể tích của hình hộp chữ nhật " Source="\BaiLyThuyet\HinhHoc\H8_C4_B3.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\3" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\3" Cau="2" />
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="4" Name="Bài4:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B4.xps">
+  <BaiHoc Chuong="4" Bai="4" Name="Bài4:Hình lăng trụ đứng " Source="\BaiLyThuyet\HinhHoc\H8_C4_B4.xps">
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="5" Name="Bài5:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B5.xps">
+  <BaiHoc Chuong="4" Bai="5" Name="Bài5:Diện tích xung quanh của hình lăng trụ đứng " Source="\BaiLyThuyet\HinhHoc\H8_C4_B5.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\5" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\5" Cau="2" />
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="6" Name="Bài6:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B6.xps">
+  <BaiHoc Chuong="4" Bai="6" Name="Bài6:Thể tích của hình lăng trụ đứng" Source="\BaiLyThuyet\HinhHoc\H8_C4_B6.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\6" Cau="1" />
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\6" Cau="2" />
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="7" Name="Bài7:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B7.xps">
+  <BaiHoc Chuong="4" Bai="7" Name="Bài7:Hình chóp đều và hình chóp cụt đều" Source="\BaiLyThuyet\HinhHoc\H8_C4_B7.xps">
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="8" Name="Bài8:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B8.xps">
+  <BaiHoc Chuong="4" Bai="8" Name="Bài8:Diện tích xung quanh của hình chóp đều" Source="\BaiLyThuyet\HinhHoc\H8_C4_B8.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\8" Cau="1" />
   </BaiHoc>
-  <BaiHoc Chuong="4" Bai="9" Name="Bài9:Các trường hợp đồng dạng của tam giác vuông" Source="\BaiLyThuyet\HinhHoc\H8_C4_B9.xps">
+  <BaiHoc Chuong="4" Bai="9" Name="Bài9:Thể tích của hình chóp đều" Source="\BaiLyThuyet\HinhHoc\H8_C4_B9.xps">
     <TracNghiem Source="\BaiTapHinhHoc\Chuong4\9" Cau="1" />
   </BaiHoc>
 </DanhSachBaiHoc>
