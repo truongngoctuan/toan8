@@ -1,0 +1,5 @@
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DTO\bin\Debug\DTO.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DTO\bin\Debug\DTO.pdb
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DTO\obj\Debug\DTO.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\DTO\obj\Debug\DTO.pdb

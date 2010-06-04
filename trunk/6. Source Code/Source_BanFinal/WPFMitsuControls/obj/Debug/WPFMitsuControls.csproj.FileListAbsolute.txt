@@ -1,0 +1,15 @@
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\bin\Debug\WPFMitsuControls.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\bin\Debug\WPFMitsuControls.pdb
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\BookPage.baml
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\Book.g.cs
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\BookPage.g.cs
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.cache
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.lref
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\Book.baml
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\WPFMitsuControls.g.resources
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\WPFMitsuControls.Properties.Resources.resources
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\WPFMitsuControls.csproj.GenerateResource.Cache
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\WPFMitsuControls.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\WPFMitsuControls\obj\Debug\WPFMitsuControls.pdb

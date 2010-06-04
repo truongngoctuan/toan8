@@ -1,0 +1,9 @@
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\bin\Debug\BUS.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\bin\Debug\BUS.pdb
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\bin\Debug\DAO.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\bin\Debug\DTO.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\bin\Debug\DAO.pdb
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\bin\Debug\DTO.pdb
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\obj\Debug\BUS.dll
+D:\SoftwareContribution\toan8\6. Source Code\Source_BanFinal\BUS\obj\Debug\BUS.pdb
