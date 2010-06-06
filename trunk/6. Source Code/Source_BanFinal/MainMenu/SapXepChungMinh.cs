@@ -47,15 +47,15 @@ namespace ColorSwatch
     /// </summary>
     public class SapXepChungMinh : StackPanel
     {
-        List<ListBoxItem> DapAn;
-        ListBoxItem lbiCauHoi;
-        List<int> ViTriDapAn = new List<int>();
-        List<string> lstDapAn = new List<string>();
-        int Chuong = 0;
-        int BaiHoc = 0;
-        int CauHoi = 0;
-        string path;
-        string strCauHoi;
+        List<ListBoxItem> m_ListLbiDapAn;
+        ListBoxItem m_LbiCauHoi;
+        List<int> m_ListViTriDapAn = new List<int>();
+        public List<string> m_ListStrDapAn = new List<string>();
+        public int m_Chuong = 0;
+        public int m_BaiHoc = 0;
+        public int m_CauHoi = 0;
+        public string m_Path;
+        public string m_StrCauHoi;
         static SapXepChungMinh()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(SapXepChungMinh), new FrameworkPropertyMetadata(typeof(SapXepChungMinh)));
@@ -63,30 +63,30 @@ namespace ColorSwatch
 
         public void LayDuLieuCauHoi()
         {
-            var xElement = XElement.Load(path + "\\CauHoi.xml");
+            var xElement = XElement.Load(m_Path + "\\CauHoi.xml");
             var cauHoi = from c in xElement.Descendants("CauHoi")
-                         where c.Element("BaiHoc").Value == BaiHoc.ToString()
-                            && c.Element("CauHoiID").Value == CauHoi.ToString()
+                         where c.Element("BaiHoc").Value == m_BaiHoc.ToString()
+                            && c.Element("CauHoiID").Value == m_CauHoi.ToString()
                          select c.Element("NoiDungCauHoi").Value;
 
             if (cauHoi.Count() == 0)
             {
-                strCauHoi = "";
+                m_StrCauHoi = "";
                 return;
             }
-            strCauHoi = cauHoi.ElementAt(0);
+            m_StrCauHoi = cauHoi.ElementAt(0);
         }
         public void LayDuLieuDapAn()
         {
-            var xElementDapAn = XElement.Load(path + "\\DapAn.xml");
+            var xElementDapAn = XElement.Load(m_Path + "\\DapAn.xml");
             var dapAn = from d in xElementDapAn.Descendants("DapAn")
-                        where d.Element("BaiHoc").Value == BaiHoc.ToString()
-                           && d.Element("CauHoi").Value == CauHoi.ToString()
+                        where d.Element("BaiHoc").Value == m_BaiHoc.ToString()
+                           && d.Element("CauHoi").Value == m_CauHoi.ToString()
                         select d.Element("NoiDungDapAn").Value;
 
             for (int i = 0; i < dapAn.Count(); i++)
             {
-                lstDapAn.Add(dapAn.ElementAt(i));
+                m_ListStrDapAn.Add(dapAn.ElementAt(i));
             }
         }
         public void HienThi(string filename)
@@ -96,23 +96,23 @@ namespace ColorSwatch
             if (filename.Contains("BaiTapDaiSo"))
             {
                 Temp = "\\BaiTapDaiSo\\Chuong";
-                path = "DeSapXepChungMinh" + filename.Remove(Temp.Length + 2);
+                m_Path = "DeSapXepChungMinh" + filename.Remove(Temp.Length + 2);
 
             }
             else
             {
                 Temp = "\\BaiTapHinhHoc\\Chuong";
-                path = "DeSapXepChungMinh" + filename.Remove(Temp.Length + 2);
+                m_Path = "DeSapXepChungMinh" + filename.Remove(Temp.Length + 2);
             }
             string strChuong = filename.Remove(0, Temp.Length).Remove(2, "\\Bai01\\Cau01".Length);
             string strBai = filename.Remove(0, (Temp + "01\\Bai").Length).Remove(2, "\\Cau01".Length);
             string strCau = filename.Remove(0, (Temp + "01\\Bai01\\Cau").Length);
-            Chuong = int.Parse(strChuong);
-            BaiHoc = int.Parse(strBai);
-            CauHoi = int.Parse(strCau);
+            m_Chuong = int.Parse(strChuong);
+            m_BaiHoc = int.Parse(strBai);
+            m_CauHoi = int.Parse(strCau);
             HienThiCauHoi();
             HienThiDapAn();
-            if (lstDapAn.Count() > 0)
+            if (m_ListStrDapAn.Count() > 0)
             {
                 Button btHoanDoi = new Button();
                 btHoanDoi.Width = 100;
@@ -123,7 +123,7 @@ namespace ColorSwatch
 
                 BitmapSource bs = new BitmapImage(new Uri("images/DoiCho.png", UriKind.Relative));
                 img.Source = bs;
-                int top = lstDapAn.Count() * 40;
+                int top = m_ListStrDapAn.Count() * 40;
                 btHoanDoi.Margin = new Thickness(400, -top, 0, 0);
                 btHoanDoi.Width = 32;
                 btHoanDoi.Height = 70;
@@ -145,104 +145,104 @@ namespace ColorSwatch
         public void HienThiCauHoi()
         {
             LayDuLieuCauHoi();
-            if (strCauHoi.CompareTo("") == 0)
+            if (m_StrCauHoi.CompareTo("") == 0)
             {
                 return;
             }
-            ListBoxItem lbi = new ListBoxItem();
-            strCauHoi = path + "\\" + BaiHoc.ToString() + "\\" + strCauHoi;
-            StackPanel sp = new StackPanel();
-            lbi.Content = sp;
+            ListBoxItem listBoxItem = new ListBoxItem();
+            m_StrCauHoi = m_Path + "\\" + m_BaiHoc.ToString() + "\\" + m_StrCauHoi;
+            StackPanel stackPanel = new StackPanel();
+            listBoxItem.Content = stackPanel;
 
-            Image img = new Image();
-            BitmapSource bs = new BitmapImage(new Uri(strCauHoi, UriKind.RelativeOrAbsolute));
-            img.Source = bs;
-            img.Width = bs.Width;
-            img.Height = bs.Height;
-            sp.Children.Add(img);
-            Children.Add(lbi);
+            Image image = new Image();
+            BitmapSource bitmapSource = new BitmapImage(new Uri(m_StrCauHoi, UriKind.RelativeOrAbsolute));
+            image.Source = bitmapSource;
+            image.Width = bitmapSource.Width;
+            image.Height = bitmapSource.Height;
+            stackPanel.Children.Add(image);
+            Children.Add(listBoxItem);
         }
 
         public void HienThiDapAn()
         {
             LayDuLieuDapAn();
-            DapAn = new List<ListBoxItem>();
-            if (lstDapAn.Count == 0)
+            m_ListLbiDapAn = new List<ListBoxItem>();
+            if (m_ListStrDapAn.Count == 0)
             {
                 return;
             }
             // Phat sinh ngau nhien
             Random rand = new Random();
-            int[] PhatSinhNgauNhien = new int[lstDapAn.Count()];
+            int[] phatSinhNgauNhien = new int[m_ListStrDapAn.Count()];
 
-            for (int i = 0; i < lstDapAn.Count(); i++)
+            for (int i = 0; i < m_ListStrDapAn.Count(); i++)
             {
-                int Temp = rand.Next(0, lstDapAn.Count());
+                int temp = rand.Next(0, m_ListStrDapAn.Count());
                 int j = 0;
                 for (; j < i; j++)
                 {
-                    if (Temp == PhatSinhNgauNhien[j])
+                    if (temp == phatSinhNgauNhien[j])
                     {
                         break;
                     }
                 }
                 if (j == i)
                 {
-                    PhatSinhNgauNhien[i] = Temp;
+                    phatSinhNgauNhien[i] = temp;
                 }
                 else
                 {
                     i--;
                 }
             }
-            for (int i = 0; i < PhatSinhNgauNhien.Count(); i++)
+            for (int i = 0; i < phatSinhNgauNhien.Count(); i++)
             {
-                ViTriDapAn.Add(PhatSinhNgauNhien[i]);
+                m_ListViTriDapAn.Add(phatSinhNgauNhien[i]);
             }
 
-            for (int i = 0; i < lstDapAn.Count(); i++)
+            for (int i = 0; i < m_ListStrDapAn.Count(); i++)
             {
-                ListBoxItem lbi = new ListBoxItem();
-                StackPanel sp = new StackPanel();
-                lbi.Name = "lbiDapAn" + i.ToString();
-                sp.Orientation = Orientation.Horizontal;
-                lbi.Content = sp;
-                CheckBox cb = new CheckBox();
-                cb.Width = 25;
-                cb.Height = 25;
-                cb.Margin = new Thickness(50, 15, 0, 0);
-                cb.Checked += new RoutedEventHandler(cb_Checked);
-                cb.Unchecked += new RoutedEventHandler(cb_Unchecked);
-                Canvas cv = new Canvas();
-                cv.Width = cb.Width + 50;
-                cv.Height = cb.Height + 15;
-                cv.Children.Add(cb);
-                cv.Arrange(new Rect(0, 0, cv.Width, cv.Height));
-                sp.Children.Add(cv);
-                Image img = new Image();
-                BitmapSource bs = new BitmapImage(new Uri(path + "\\" + BaiHoc.ToString() + "\\" + lstDapAn[ViTriDapAn[i]], UriKind.RelativeOrAbsolute));
-                img.Source = bs;
-                img.Width = bs.Width;
-                img.Height = bs.Height;
-                sp.Children.Add(img);
-                lbiCauHoi = lbi;
-                DapAn.Add(lbi);
+                ListBoxItem listBoxItem = new ListBoxItem();
+                StackPanel stackPanel = new StackPanel();
+                listBoxItem.Name = "lbiDapAn" + i.ToString();
+                stackPanel.Orientation = Orientation.Horizontal;
+                listBoxItem.Content = stackPanel;
+                CheckBox checkBox = new CheckBox();
+                checkBox.Width = 25;
+                checkBox.Height = 25;
+                checkBox.Margin = new Thickness(50, 15, 0, 0);
+                checkBox.Checked += new RoutedEventHandler(checkBox_Checked);
+                checkBox.Unchecked += new RoutedEventHandler(checkBox_Unchecked);
+                Canvas canvas = new Canvas();
+                canvas.Width = checkBox.Width + 50;
+                canvas.Height = checkBox.Height + 15;
+                canvas.Children.Add(checkBox);
+                canvas.Arrange(new Rect(0, 0, canvas.Width, canvas.Height));
+                stackPanel.Children.Add(canvas);
+                Image image = new Image();
+                BitmapSource bitmapSource = new BitmapImage(new Uri(m_Path + "\\" + m_BaiHoc.ToString() + "\\" + m_ListStrDapAn[m_ListViTriDapAn[i]], UriKind.RelativeOrAbsolute));
+                image.Source = bitmapSource;
+                image.Width = bitmapSource.Width;
+                image.Height = bitmapSource.Height;
+                stackPanel.Children.Add(image);
+                m_LbiCauHoi = listBoxItem;
+                m_ListLbiDapAn.Add(listBoxItem);
 
             }
             Orientation = Orientation.Vertical;
-            for (int i = 0; i < DapAn.Count; ++i)
+            for (int i = 0; i < m_ListLbiDapAn.Count; ++i)
             {
-                Children.Add(DapAn[i]);
+                Children.Add(m_ListLbiDapAn[i]);
             }
         }
 
-        void cb_Unchecked(object sender, RoutedEventArgs e)
+        void checkBox_Unchecked(object sender, RoutedEventArgs e)
         {
             //throw new NotImplementedException();
             XuLyCheckBox();
         }
 
-        void cb_Checked(object sender, RoutedEventArgs e)
+        void checkBox_Checked(object sender, RoutedEventArgs e)
         {
             //throw new NotImplementedException();
             XuLyCheckBox();
@@ -250,60 +250,60 @@ namespace ColorSwatch
 
         public void DoiCho()
         {
-            int ViTri1 = -1;
-            int ViTri2 = -1;
-            int Dem = 0;
-            for (int i = 0; i < DapAn.Count(); i++)
+            int viTriCheck1 = -1;
+            int viTriCheck2 = -1;
+            int dem = 0;
+            for (int i = 0; i < m_ListLbiDapAn.Count(); i++)
             {
-                ListBoxItem lbi = DapAn[i];
-                StackPanel sp = (StackPanel)lbi.Content;
-                Canvas cv = new Canvas();
-                cv = (Canvas)sp.Children[0];
-                CheckBox cb = (CheckBox)cv.Children[0];
-                if (cb.IsChecked == true)
+                ListBoxItem listBoxItem = m_ListLbiDapAn[i];
+                StackPanel stackPanel = (StackPanel)listBoxItem.Content;
+                Canvas canvas = new Canvas();
+                canvas = (Canvas)stackPanel.Children[0];
+                CheckBox checkBox = (CheckBox)canvas.Children[0];
+                if (checkBox.IsChecked == true)
                 {
-                    if (ViTri1 == -1)
+                    if (viTriCheck1 == -1)
                     {
-                        ViTri1 = i;
+                        viTriCheck1 = i;
                     }
                     else
                     {
-                        ViTri2 = i;
+                        viTriCheck2 = i;
                     }
-                    Dem += 1;
+                    dem += 1;
                 }
             }
 
-            if (Dem != 2)
+            if (dem != 2)
             {
                 return;
             }
-            int Temp = ViTriDapAn[ViTri1];
-            ViTriDapAn[ViTri1] = ViTriDapAn[ViTri2];
-            ViTriDapAn[ViTri2] = Temp;
+            int Temp = m_ListViTriDapAn[viTriCheck1];
+            m_ListViTriDapAn[viTriCheck1] = m_ListViTriDapAn[viTriCheck2];
+            m_ListViTriDapAn[viTriCheck2] = Temp;
 
 
-            BitmapSource bs1 = new BitmapImage(new Uri(path + "\\" + BaiHoc.ToString() + "\\" + lstDapAn[ViTriDapAn[ViTri1]], UriKind.RelativeOrAbsolute));
-            ListBoxItem lbItem1 = DapAn[ViTri1];
-            StackPanel stackPanel1 = (StackPanel)lbItem1.Content;
+            BitmapSource bitmapSource1 = new BitmapImage(new Uri(m_Path + "\\" + m_BaiHoc.ToString() + "\\" + m_ListStrDapAn[m_ListViTriDapAn[viTriCheck1]], UriKind.RelativeOrAbsolute));
+            ListBoxItem listBoxItem1 = m_ListLbiDapAn[viTriCheck1];
+            StackPanel stackPanel1 = (StackPanel)listBoxItem1.Content;
             Image img1 = (Image)stackPanel1.Children[1];
-            img1.Width = bs1.Width;
-            img1.Height = bs1.Height;
-            img1.Source = bs1;
+            img1.Width = bitmapSource1.Width;
+            img1.Height = bitmapSource1.Height;
+            img1.Source = bitmapSource1;
 
-            BitmapSource bs2 = new BitmapImage(new Uri(path + "\\" + BaiHoc.ToString() + "\\" + lstDapAn[ViTriDapAn[ViTri2]], UriKind.RelativeOrAbsolute));
-            ListBoxItem lbItem2 = DapAn[ViTri2];
-            StackPanel stackPanel2 = (StackPanel)lbItem2.Content;
-            Image img2 = (Image)stackPanel2.Children[1];
+            BitmapSource bitmapSource2 = new BitmapImage(new Uri(m_Path + "\\" + m_BaiHoc.ToString() + "\\" + m_ListStrDapAn[m_ListViTriDapAn[viTriCheck2]], UriKind.RelativeOrAbsolute));
+            ListBoxItem listBoxItem2 = m_ListLbiDapAn[viTriCheck2];
+            StackPanel stackPanel2 = (StackPanel)listBoxItem2.Content;
+            Image image2 = (Image)stackPanel2.Children[1];
 
-            img2.Width = bs2.Width;
-            img2.Height = bs2.Height;
-            img2.Source = bs2;
+            image2.Width = bitmapSource2.Width;
+            image2.Height = bitmapSource2.Height;
+            image2.Source = bitmapSource2;
 
-            for (int i = 0; i < lstDapAn.Count(); i++)
+            for (int i = 0; i < m_ListStrDapAn.Count(); i++)
             {
-                ListBoxItem lbi = DapAn[i];
-                StackPanel sp = (StackPanel)lbi.Content;
+                ListBoxItem listBoxItem = m_ListLbiDapAn[i];
+                StackPanel sp = (StackPanel)listBoxItem.Content;
                 Canvas cv = new Canvas();
                 cv = (Canvas)sp.Children[0];
                 CheckBox cb = (CheckBox)cv.Children[0];
@@ -314,73 +314,73 @@ namespace ColorSwatch
 
         public double KiemTra()
         {
-            int soDapAn = DapAn.Count();
+            int soDapAn = m_ListLbiDapAn.Count();
             for (int i = 0; i < soDapAn; i++)
             {
-                ListBoxItem lbi = DapAn[i];
-                StackPanel sp = (StackPanel)lbi.Content;
-                Image img = (Image)sp.Children[1];
-                string strDapAnNguoiDung = img.Source.ToString();
+                ListBoxItem listBoxItem = m_ListLbiDapAn[i];
+                StackPanel stackPanel = (StackPanel)listBoxItem.Content;
+                Image image = (Image)stackPanel.Children[1];
+                string strDapAnNguoiDung = image.Source.ToString();
 
-                if (strDapAnNguoiDung.Contains(lstDapAn[i]) != true)
+                if (strDapAnNguoiDung.Contains(m_ListStrDapAn[i]) != true)
                 {
                     for (int j = i; j < soDapAn; j++)
                     {
-                        ListBoxItem lbiSai = DapAn[j];
-                        StackPanel spSai = (StackPanel)lbiSai.Content;
-                        Canvas cvSai = (Canvas)spSai.Children[0];
-                        CheckBox cbSai = (CheckBox)cvSai.Children[0];
-                        cbSai.Background = Brushes.Red;
+                        ListBoxItem listBoxItemSai = m_ListLbiDapAn[j];
+                        StackPanel stackPanelSai = (StackPanel)listBoxItemSai.Content;
+                        Canvas canvasSai = (Canvas)stackPanelSai.Children[0];
+                        CheckBox checkBoxSai = (CheckBox)canvasSai.Children[0];
+                        checkBoxSai.Background = Brushes.Red;
                     }
                     return 0.0;
 
                 }
-                Canvas cvDung = (Canvas)sp.Children[0];
-                CheckBox cbDung = (CheckBox)cvDung.Children[0];
-                cbDung.Background = Brushes.Blue;
+                Canvas canvasDung = (Canvas)stackPanel.Children[0];
+                CheckBox checkBoxDung = (CheckBox)canvasDung.Children[0];
+                checkBoxDung.Background = Brushes.Blue;
             }
             return 1.0;
         }
 
         public void XuLyCheckBox()
         {
-            int Dem = 0;
-            int ViTri1 = -1;
-            int ViTri2 = -1;
-            for (int i = 0; i < DapAn.Count(); i++)
+            int dem = 0;
+            int viTriCheck1 = -1;
+            int viTriCheck2 = -1;
+            for (int i = 0; i < m_ListLbiDapAn.Count(); i++)
             {
-                ListBoxItem lbi = DapAn[i];
-                StackPanel sp = (StackPanel)lbi.Content;
-                Canvas cv = new Canvas();
-                cv = (Canvas)sp.Children[0];
-                CheckBox cb = (CheckBox)cv.Children[0];
-                if (cb.IsChecked == true)
+                ListBoxItem listBoxItem = m_ListLbiDapAn[i];
+                StackPanel stackPanel = (StackPanel)listBoxItem.Content;
+                Canvas canvas = new Canvas();
+                canvas = (Canvas)stackPanel.Children[0];
+                CheckBox checkBox = (CheckBox)canvas.Children[0];
+                if (checkBox.IsChecked == true)
                 {
 
-                    if (ViTri1 == -1)
+                    if (viTriCheck1 == -1)
                     {
-                        ViTri1 = i;
+                        viTriCheck1 = i;
                     }
                     else
                     {
-                        ViTri2 = i;
+                        viTriCheck2 = i;
                     }
 
-                    Dem += 1;
+                    dem += 1;
                 }
             }
 
-            for (int i = 0; i < lstDapAn.Count(); i++)
+            for (int i = 0; i < m_ListStrDapAn.Count(); i++)
             {
-                ListBoxItem lbi = DapAn[i];
-                StackPanel sp = (StackPanel)lbi.Content;
-                Canvas cv = new Canvas();
-                cv = (Canvas)sp.Children[0];
-                CheckBox cb = (CheckBox)cv.Children[0];
-                cb.IsEnabled = false;
-                if (i == ViTri1 || i == ViTri2 || Dem < 2)
+                ListBoxItem listBoxItem = m_ListLbiDapAn[i];
+                StackPanel stackPanel = (StackPanel)listBoxItem.Content;
+                Canvas canvas = new Canvas();
+                canvas = (Canvas)stackPanel.Children[0];
+                CheckBox checkBox = (CheckBox)canvas.Children[0];
+                checkBox.IsEnabled = false;
+                if (i == viTriCheck1 || i == viTriCheck2 || dem < 2)
                 {
-                    cb.IsEnabled = true;
+                    checkBox.IsEnabled = true;
                 }
             }
         }
